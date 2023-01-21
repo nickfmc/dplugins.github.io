@@ -1,6 +1,7 @@
 ---
 title: Plugin 1 - Getting Started
-category: test	
+category: test
+layout: plugin-1
 ---
 
 ## Category: Test
