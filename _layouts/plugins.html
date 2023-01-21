@@ -1,59 +1,31 @@
 {% include header.html %}
 
+    
+
     <div class="mx-auto max-w-4xl my-12">
         <h1 class="text-5xl mb-12">Plugins - {{ page.title }}</h1>
     </div>
 
     <div class="flex gap-12 mx-auto max-w-4xl my-12">
 
-        <nav class="min-w-[250px]">
-            <h3>Sidebar</h3>
-
-            <!-- <ul>
-                {% for plugin in site.plugins %}
-                    {% if plugin.path contains page.path %}
-                        <li><a href="{{ plugin.url }}">{{ plugin.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> -->
-
+        <nav class="min-w-[250px] border rounded p-4">
+            <h3 class="font-bold text-2xl mb-4">Sidebar</h3>
 
             {% for plugin in site.plugins %}
-            {% if plugin.url contains '/winden/' %}
-              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+            {% if plugin.url contains '/plugin-1/' %}
+                
+                <h2 class=" border-b border-slate-100 !py-4">
+                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
+                </h2>
+
             {% endif %}
             {% endfor %}
                
             {% for plugin in site.plugins %}
-            {% if plugin.url contains '/swiss-knife-oxygen/' %}
+            {% if plugin.url contains '/plugin-2/' %}
               <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
             {% endif %}
             {% endfor %}
-               
-            test 1
-
-            {% for plugin in site.plugins %}
-            {% if plugin.url contains 'current_folder' %}
-              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
-            {% endif %}
-            {% endfor %}
-
-            test 2
-
-            {% if plugin.url contains '/current_folder/' %}
-                <p>This plugin is in the 'current_folder' folder.</p>
-            {% endif %}
-
-            test 3
-
-            {% assign current_folder = page.path | split: '/' | first %}
-            {% for plugin in site.plugins %}
-            {% if plugin.path starts_with current_folder %}
-                <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
-            {% endif %}
-            {% endfor %}
-      
-
 
         </nav>
 
