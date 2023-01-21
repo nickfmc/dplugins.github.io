@@ -35,8 +35,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Rebuild your Jekyll site when a file changes with the --watch switch.
 gem 'jekyll-watch'
 
-gem 'jekyll-sass-converter'
-
-group :jekyll_plugins do
-  gem 'jekyll-postcss'
-end
+gem 'jekyll-admin', group: :jekyll_plugins
