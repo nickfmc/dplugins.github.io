@@ -6,14 +6,55 @@
 
     <div class="flex gap-12 mx-auto max-w-4xl my-12">
 
-        <nav class="min-w-[200px]">
+        <nav class="min-w-[250px]">
             <h3>Sidebar</h3>
-            
+
+            <!-- <ul>
+                {% for plugin in site.plugins %}
+                    {% if plugin.path contains page.path %}
+                        <li><a href="{{ plugin.url }}">{{ plugin.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> -->
+
+
             {% for plugin in site.plugins %}
-                <div class="shadow p-4 rounded">
-                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
-                </div>
+            {% if plugin.url contains '/winden/' %}
+              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+            {% endif %}
             {% endfor %}
+               
+            {% for plugin in site.plugins %}
+            {% if plugin.url contains '/swiss-knife-oxygen/' %}
+              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+            {% endif %}
+            {% endfor %}
+               
+            test 1
+
+            {% for plugin in site.plugins %}
+            {% if plugin.url contains 'current_folder' %}
+              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+            {% endif %}
+            {% endfor %}
+
+            test 2
+
+            {% if plugin.url contains '/current_folder/' %}
+                <p>This plugin is in the 'current_folder' folder.</p>
+            {% endif %}
+
+            test 3
+
+            {% assign current_folder = page.path | split: '/' | first %}
+            {% for plugin in site.plugins %}
+            {% if plugin.path starts_with current_folder %}
+                <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+            {% endif %}
+            {% endfor %}
+      
+
+
         </nav>
 
         <main class=" mx-auto max-w-4xl my-12"> 

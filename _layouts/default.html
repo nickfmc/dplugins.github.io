@@ -2,6 +2,27 @@
 
     <h1>Marko</h1>
 
+    {% for plugin in site.plugins %}
+      {% if plugin.url contains '/winden/' %}
+        <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+      {% endif %}
+    {% endfor %}
+
+    <br>
+    <br>
+    <br>
+<!-- 
+    {{ site.post.categories }}
+
+    {% assign post = site.posts | where:"url", include.url | first %}
+{% unless post %}
+    {% assign post = site.pages | where:"url", include.url | first %}
+{% endunless %} -->
+
+    <br>
+    <br>
+    <br>
+
     <div class="max-w-7xl mx-auto grid grid-cols-3 gap-4">
       {% for plugin in site.plugins %}
         <div class="shadow p-4 rounded">
