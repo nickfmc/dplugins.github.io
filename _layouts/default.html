@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/output.css" | relative_url }}">
-  </head>
-  <body>
+{% include header.html %}
 
     <h1>Marko</h1>
 
@@ -95,5 +87,5 @@
     </div>
 
     {{ content }}
-  </body>
-</html>
+
+{% include footer.html %}

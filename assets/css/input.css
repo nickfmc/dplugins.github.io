@@ -1,3 +1,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
+.col-2{
+    display: flex;
+    gap:  20px;
+}
+
+.col-2 img{
+    width: 100%;
+}

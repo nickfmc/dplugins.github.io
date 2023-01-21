@@ -1,8 +1,22 @@
 ---
-title: getting started Winden
+title: getting started plain oxygen
 ---
 
 kages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+<!-- <div class="col-2">
+	<div>
+		<img src="img/test.png" alt="">
+		![image](img/test.png)
+		
+	</div>
+		<div>
+			<img src="img/test.png" alt="">
+			![image](img/test.png)
+	</div>
+<div> -->
+	
+{% include col-2.html image1='img/test.png' image2='img/test.png' %}	
 
 
 Where does it come from?

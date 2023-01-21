@@ -4,3 +4,9 @@ title: DPlugins Documentation
 collections:
   plugins:
     output: true
+defaults:
+  - scope:
+      path: ""
+      type: "plugins"
+    values:
+      layout: "plugins"
