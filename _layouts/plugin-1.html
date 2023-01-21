@@ -26,26 +26,6 @@
             {% endif %}
             {% endfor %}
                
-            {% for plugin in site.plugins %}
-            {% if plugin.url contains '/plugin-2/' %}
-                
-                <h2 class=" border-b border-slate-100 !py-4">
-                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
-                </h2>
-
-            {% endif %}
-            {% endfor %}
-
-            {% for plugin in site.plugins %}
-            {% if plugin.url contains '/plugin-3/' %}
-                
-                <h2 class=" border-b border-slate-100 !py-4">
-                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
-                </h2>
-
-            {% endif %}
-            {% endfor %}
-               
 
         </nav>
 
