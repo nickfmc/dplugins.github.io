@@ -1,7 +1,7 @@
 {% include header.html %}
 
     <div class="mx-auto max-w-4xl my-12">
-        <h1 class="text-7xl mb-12">Plugins</h1>
+        <h1 class="text-5xl mb-12">Plugins - {{ page.title }}</h1>
     </div>
 
     <div class="flex gap-12 mx-auto max-w-4xl my-12">
@@ -9,35 +9,11 @@
         <nav class="min-w-[200px]">
             <h3>Sidebar</h3>
             
-            {% for category in page.categories %}
-            {% assign moreThanOneInCategory = false %}
-            {% assign plugins = site.categories[category] %}
-          
-            {% for plugin in plugins %}
-              {% if forloop.length > 1 %}
-                {% assign moreThanOneInCategory = true %}
-              {% endif %}
+            {% for plugin in site.plugins %}
+                <div class="shadow p-4 rounded">
+                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
+                </div>
             {% endfor %}
-          
-            {% if moreThanOneInCategory == true %}
-              <div class="related-plugins">
-                <h3>Other plugins archived in “{{ category }}”</h3>
-          
-                <ul>
-                  {% for plugin in plugins %}
-                    {% unless plugin.url == page.url %}
-                      <li>
-                        <a href="{{ plugin.url | prepend: site.baseurl }}">{{ plugin.title }}</a>
-          
-                        Published on <time datetime="{{ plugin.date | date_to_xmlschema }}">{{ plugin.date | date: "%B %-d, %Y" }}</time>
-                      </li>
-                    {% endunless %}
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endif %}
-          {% endfor %}
-
         </nav>
 
         <main class=" mx-auto max-w-4xl my-12"> 
