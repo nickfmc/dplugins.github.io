@@ -1,6 +1,9 @@
 {% include header.html %}
 
-    
+{% for category in plugin.categories %}
+    {{ category }}
+{% endfor %}
+
 
     <div class="mx-auto max-w-4xl my-12">
         <h1 class="text-5xl mb-12">Plugins - {{ page.title }}</h1>
@@ -10,7 +13,9 @@
 
         <nav class="min-w-[250px] border rounded p-4">
             <h3 class="font-bold text-2xl mb-4">Sidebar</h3>
-
+            
+            <!-- So I need only from current folder -->
+            
             {% for plugin in site.plugins %}
             {% if plugin.url contains '/plugin-1/' %}
                 
@@ -23,9 +28,24 @@
                
             {% for plugin in site.plugins %}
             {% if plugin.url contains '/plugin-2/' %}
-              <h2><a href="{{ plugin.url }}">{{ plugin.title }}</a></h2>
+                
+                <h2 class=" border-b border-slate-100 !py-4">
+                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
+                </h2>
+
             {% endif %}
             {% endfor %}
+
+            {% for plugin in site.plugins %}
+            {% if plugin.url contains '/plugin-3/' %}
+                
+                <h2 class=" border-b border-slate-100 !py-4">
+                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
+                </h2>
+
+            {% endif %}
+            {% endfor %}
+               
 
         </nav>
 

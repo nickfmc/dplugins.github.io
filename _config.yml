@@ -10,3 +10,8 @@ defaults:
       type: "plugins"
     values:
       layout: "plugins"
+  - scope:
+      path: "plugins/plugin-1"
+      type: "plugins"
+    values:
+      category: marko
