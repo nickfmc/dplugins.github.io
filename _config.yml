@@ -4,16 +4,23 @@ title: DPlugins Documentation
 collections:
   plugins:
     output: true
-algolia:
-  application_id: 'your_application_id'    
+    permalink: /plugins/:path/
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
       type: "plugins"
     values:
       layout: "plugins"
-  - scope:
-      path: "plugins/plugin-1"
+  - 
+    scope:
+      path: "_plugins/*/advanced"
       type: "plugins"
     values:
-      category: marko
+      category: "advanced"
+  - 
+    scope:
+      path: "_plugins/*/{{dir}}"
+      type: "plugins"
+    values:
+      category: "{{dir}}"
