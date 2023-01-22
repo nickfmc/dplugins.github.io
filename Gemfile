@@ -36,3 +36,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-watch'
 
 gem 'jekyll-admin', group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem 'jekyll-algolia', '~> 1.0'
+end

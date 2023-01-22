@@ -4,6 +4,8 @@ title: DPlugins Documentation
 collections:
   plugins:
     output: true
+algolia:
+  application_id: 'your_application_id'    
 defaults:
   - scope:
       path: ""

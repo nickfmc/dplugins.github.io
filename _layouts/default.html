@@ -12,14 +12,6 @@
     {% endfor %}
   </div>
 
-  <div class="max-w-7xl mx-auto grid grid-cols-3 gap-4 my-12">
-    {% for post in site.posts %}
-      <div class="shadow p-4 rounded">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-    {% endfor %}
-  </div>
-
   <div class="bg-white">
     <!-- Header -->
     <div class="relative bg-gray-800 pb-32">
@@ -86,6 +78,7 @@
         </div>
       </div>
     </section>
+
   </div>
   
   {{ content }}
