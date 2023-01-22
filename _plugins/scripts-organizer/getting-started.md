@@ -2,8 +2,32 @@
 title: Getting Started
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque ex nec magna vehicula cursus. Sed in ipsum eget mi vulputate pulvinar nec sed sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis elit consectetur aliquam laoreet. Vivamus ac odio et massa mattis iaculis sed ac quam. Quisque sed arcu vel tellus mollis volutpat eget nec metus. Pellentesque scelerisque dolor a quam faucibus commodo. Quisque scelerisque dui et eleifend aliquet. Maecenas tincidunt felis ac porttitor gravida. Curabitur tristique vel dolor et posuere. Fusce et consectetur sem, ut volutpat neque. Suspendisse aliquam lobortis turpis in lacinia. Praesent ac ullamcorper turpis. Sed nec semper enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus hendrerit ullamcorper imperdiet.
+## Welcome
 
-Donec tincidunt odio ac libero porta, in luctus velit cursus. Nunc pellentesque quam quis neque finibus posuere. Quisque pretium dolor ac enim gravida mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam interdum molestie ligula et fringilla. Aenean facilisis magna metus, nec dapibus nisi placerat quis. Sed pulvinar auctor arcu, non aliquam arcu vulputate vel. Morbi porta turpis sit amet cursus consectetur. Sed tempus turpis eu maximus sagittis. Duis et tincidunt mauris. Nunc justo nisl, iaculis at ornare eget, fringilla id diam. Phasellus ac feugiat felis. Nunc gravida porta est, sit amet vehicula massa lacinia id. Suspendisse eget consequat quam.
+Scripts Organizer is a WordPress plugin that will replace your CodeEditor and make it possible to write code directly on your website online or in the local environment. Besides conditions to target specific pages, posts, post types, and categories, Scripts Organizer has a powerful feature to trigger code based on time and/ or date period and that makes it very powerful for marketing and online stores.
 
-Aenean eu urna sit amet enim elementum interdum.
+## Installation
+
+Scripts Organizer is a paid plugin and does not come from WordPress.org. You need to install it manually.
+
+If you are familiar with WordPress, simply log in and go to the Plugins page. From there click on "Add New" and upload the .zip file you received after purchase. If you didn't, don't worry. Login to our website and download it.
+
+In order to use and update it after installation, you will need to activate it by pasting the license.
+
+For detailed instructions, please read our [step-by-step instruction guide](https://docs.dplugins.com/scripts-organizer/installation-and-licence/).
+
+## Creating Scripts
+
+Scripts Organizer is powered by WordPress' native look and feel and the learning curve is minimal. You create a Code ( Script ) post by Add New Script button.
+
+Here is a preview of how the code editor looks.
+
+## Activating scripts
+
+After you are done writing your code, simply publish it and anyone's post or page will have the active code.
+
+## Education and Support
+
+Good work! This guide covered all the basics needed in order to get started with the Scripts Organizer plugin, but we’ve only scratched the surface. As you learn more about SCORG, you’ll discover new features and functions that can help you take your WordPress website to the next level.
+
+If you have any questions that were not addressed in this guide, go through the rest of the documentation for more information and read step by step about what each feature does.
