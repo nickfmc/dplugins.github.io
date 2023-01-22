@@ -1,0 +1,193 @@
+.oxygen-body{
+
+// ********************************* //
+// Table
+// ********************************* //
+
+td {
+    border: 1px solid black;
+    padding: 5px 10px 0;
+}
+
+// ********************************* //
+// Code
+// ********************************* //
+// .wp-block-code{
+//     padding: 10px;
+//     border-radius: 4px;
+//     background-color: #f3f4fb;
+//     mix-blend-mode: luminosity;
+// }
+
+// code{
+//     padding: 2px 5px;
+//     border-radius: 4px;
+//     background-color: #f3f4fb;
+//     mix-blend-mode: luminosity;
+// }
+
+
+
+// ********************************* //
+// Images
+// ********************************* //
+
+.wp-block-image{
+    width: fit-content;
+
+
+    figcaption{
+        text-align: center;
+        margin-top: -2em;
+        opacity: 0.5;
+        font-size: 0.7em;
+        margin-bottom: 3em;
+        
+    }
+
+}
+
+
+#single-container img{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 40px 40px -25px #ede3c3;
+    // max-width: 500px;
+}
+
+
+// ********************************* //
+// Sidebar
+// ********************************* //
+
+@mixin sidebar-items{
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    line-height: 1.4;
+    font-size: 14px;
+
+    &:hover{
+        background-color: rgba(255, 235, 87, 0.2);
+
+    }
+
+}
+
+@mixin sidebar{
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    list-style: none;
+    border-left: 3px solid rgb(240, 237, 220);
+    mix-blend-mode: multiply;
+
+}
+
+.shortcode-toc{
+    ul{
+        @include sidebar;
+
+        li{
+            @include sidebar-items;
+        }
+
+    }
+}
+
+
+// ********************************* //
+// Related Docs
+// ********************************* //
+
+
+.related-docs{
+
+    @include sidebar;
+
+    .oxy-post{
+        @include sidebar-items;
+    }
+
+    .current-post{
+        @include sidebar-items;
+        opacity: 0.2;
+    }
+}
+
+.new{
+    background-color: #64fcc2;
+    border-radius: 2px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+
+
+// ********************************* //
+// Banner
+// ********************************* //
+
+.product-banner {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    margin-top: var(--space-l);
+    margin-bottom: var(--space-l);
+    background-color: #fff;
+    box-shadow: 0 100px 100px -50px #c8b269;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+
+    h2{
+        margin-top: 0;
+        // font-size: 1.5rem;
+        color: black;
+    }
+
+    .banner-description{
+        // font-size: 0.75em;
+        color: black;
+        display: block;
+    }
+
+    img{
+        border-radius: 5px;
+        width: 40%;
+        margin-right: 40px;
+    }
+
+    .banner-button{
+        margin-top: 20px;
+        display: block;
+        @include button;
+ 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .product-banner{
+        flex-direction: column;
+
+            img{
+                
+                width: 100%;
+                margin-right: 0px;
+                margin-bottom: 30px;
+            }   
+
+            .banner-button{
+                width: 100%;
+            }
+    }
+}
+
+
+} // End of .oxygen-body
+
+
+
+

@@ -1,13 +1,15 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "./root.css";
+@import "./type.css";
+@import "./layout.css";
 
 
-.col-2{
-    display: flex;
-    gap:  20px;
+.plugin-card{
+    @apply rounded overflow-hidden;
 }
 
-.col-2 img{
-    width: 100%;
+.plugin-card h2{
+    @apply text-md;
 }

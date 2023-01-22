@@ -1,0 +1,77 @@
+// html {
+//     font-size: 18px;    
+//     @include tablet{    font-size: 15px; }
+
+// } /*20px*/
+
+// .oxygen-body{
+
+//     background: #ffffff;
+//     font-family: 'Body', sans-serif;
+//     font-weight: 400;
+//     line-height: 1.75;
+//     color: #000000;
+
+//     text-rendering: optimizeLegibility;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+
+//     overflow-x: hidden;
+
+//     font-size: 0.9rem;
+//     // font-size: clamp(0.9rem, 0.85rem + 0.25vw, 1.15rem);
+
+//     p {margin-bottom: 1rem;}
+
+//     h1, h2, h3, h4, h5 {
+//         margin: 2rem 0 1rem;
+        
+//         font-family: 'Title', sans-serif;
+//         font-weight: 800;
+//         line-height: 1;
+//         letter-spacing: .05em;
+//     }
+
+//     h1 {
+//     margin-top: 0;
+//     font-size: 3.375rem;
+//         // @include tablet{    font-size: 2.4rem; }
+//     }
+
+//     h2 {font-size: 2.25rem;
+//         // @include tablet{    font-size: 1.8rem; }
+//     }
+
+//     h3 {font-size: 1.5rem;
+//         // @include tablet{    font-size: 1.3; }
+//     }
+
+//     h4 {font-size: 1rem;
+//     }
+
+
+    
+//     .title__large{
+//         font-size: 5.063rem;        
+//         font-family: 'Title', sans-serif;
+//         letter-spacing: .02em;
+
+//         @include tablet{    font-size: 3.2rem; }
+//     }
+
+//     .title__intro {
+//         font-size: 1.999rem;
+//         line-height: 1.3;
+//         font-family: 'Body', sans-serif;
+//         font-weight: 300;
+//         margin-top: 0;
+//         letter-spacing: 0;
+//         @include tablet{    font-size: 1.6rem; }
+        
+//     }
+
+//     small, .text_small {font-size: 0.75rem;}
+
+//     b, strong{  font-weight: 800;   }
+
+// }

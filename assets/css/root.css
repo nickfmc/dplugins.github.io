@@ -1,0 +1,23 @@
+:root{
+    
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=16&minWidth=400&minRatio=1.333&maxFontSize=20&maxWidth=1680&maxRatio=1.414&steps=sm%2Cbase%2Cmd%2Clg%2Cxl%2Cgiga&baseStep=sm&prefix=font-size&decimals=2&previewFont=Inter */
+
+    --font-size-sm: clamp(16px, 0.31vw + 14.75px, 20px);
+    --font-size-base: clamp(21.33px, 0.54vw + 19.16px, 28.28px);
+    --font-size-md: clamp(28.43px, 0.9vw + 24.82px, 39.99px);
+    --font-size-lg: clamp(37.9px, 1.46vw + 32.07px, 56.54px);
+    --font-size-xl: clamp(50.52px, 2.3vw + 41.32px, 79.95px);
+    --font-size-giga: clamp(67.34px, 3.57vw + 53.05px, 113.05px);
+
+
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=2&minWidth=400&minRatio=1.7&maxFontSize=2&maxWidth=1680&maxRatio=2&steps=sm%2Cbase%2Cmd%2Clg%2Cxl%2Cxxl%2Cxxxl%2Cgiga&baseStep=sm&prefix=space-size&decimals=2&previewFont=Inter */
+
+    --space-size-sm: clamp(2px, 0vw + 2px, 2px);
+    --space-size-base: clamp(3.4px, 0.05vw + 3.21px, 4px);
+    --space-size-md: clamp(5.78px, 0.17vw + 5.09px, 8px);
+    --space-size-lg: clamp(9.83px, 0.48vw + 7.9px, 16px);
+    --space-size-xl: clamp(16.7px, 1.19vw + 11.92px, 32px);
+    --space-size-xxl: clamp(28.4px, 2.78vw + 17.27px, 64px);
+    --space-size-xxxl: clamp(48.28px, 6.23vw + 23.36px, 128px);
+    --space-size-giga: clamp(82.07px, 13.59vw + 27.71px, 256px);
+}

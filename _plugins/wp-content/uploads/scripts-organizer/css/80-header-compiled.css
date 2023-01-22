@@ -1,0 +1,7 @@
+html .CodeMirror-hints {
+  background-color: var(--oxy__bg-1);
+}
+html .CodeMirror-hints li {
+  color: var(--oxy__text);
+}
+

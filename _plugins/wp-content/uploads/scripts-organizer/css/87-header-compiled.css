@@ -1,0 +1,7 @@
+.sidebar {
+  width: 300px;
+}
+.sidebar .current-post {
+  text-decoration: underline;
+}
+

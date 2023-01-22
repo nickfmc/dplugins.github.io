@@ -48,7 +48,7 @@ We've also studied other CSS frameworks specified for page builders and would li
 [OxyNinja](https://oxyninja.com/core/) is a lightweight, responsive and modern utility CSS framework that created exclusively for Oxygen Builder<sup title="citation"><a href="https://oxyninja.com/help/core-documentation/">[1]</a></sup>. It comes with a collection of pre-made components and templates to boost your productivity.
 
 On the other hand, Winden is not tied to Oxygen Builder and doesn't come with any pre-made components or templates. However, there are tons of pre-made components and templates that are already available out there, such as:
-<div className="[&_ul]:columns-3">
+<div className="">
 
 - [Tailwind UI](https://tailwindui.com/)
 - [Flowbite](https://flowbite.com/)

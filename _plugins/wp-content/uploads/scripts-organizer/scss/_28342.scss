@@ -1,0 +1,22 @@
+@mixin button{
+    min-width: 200px;
+    padding: var(--space-s) var(--space-m);
+    border-radius: 100px;
+    border: 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+    color: var(--black);
+    background-color: var(--yellow);
+    mix-blend-mode: multiply;
+
+    &:hover{
+        background-color: var(--blue);
+        color: white;
+    }
+}
+

@@ -14,6 +14,12 @@ defaults:
       layout: "plugins"
   - 
     scope:
+      path: "_plugins/*/guides"
+      type: "plugins"
+    values:
+      category: "guides"
+  - 
+    scope:
       path: "_plugins/*/advanced"
       type: "plugins"
     values:
@@ -24,3 +30,7 @@ defaults:
       type: "plugins"
     values:
       category: "{{dir}}"
+
+categories-order:
+ - guides
+ - advanced
