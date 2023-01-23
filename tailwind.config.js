@@ -27,10 +27,19 @@ module.exports = {
         'lg'    :  'var(--font-size-lg)',
         'xl'    :  'var(--font-size-xl)',
         'giga'  :  'var(--font-size-giga)'
-      }
+      },
+
+      extend: {
+        fontFamily: {
+          'title': ['Title', 'Helvetica', 'Arial', 'sans-serif'],
+        },
+      },
+      
     },
     variants: {},
-    plugins: [],
+    plugins: [
+      require('@tailwindcss/typography'),
+    ],
   }
 
 

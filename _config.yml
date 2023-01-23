@@ -12,6 +12,7 @@ defaults:
       type: "plugins"
     values:
       layout: "plugins"
+      toc: true
   - 
     scope:
       path: "_plugins/*/guides"
@@ -39,3 +40,6 @@ algolia:
    application_id: YF7ULZ0QZ9
    index_name: test
    search_only_api_key: dad4a7fd3b85c430b6e1f865ef04a8bd
+
+plugins:
+  - jekyll-toc

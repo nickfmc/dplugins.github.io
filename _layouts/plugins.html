@@ -5,122 +5,68 @@
 {% endfor %}
 
 
-    <div class="mx-auto max-w-4xl my-12 marko-test">
-        <h1 class="text-5xl mb-12">Plugins - {{ page.title }}</h1>
-    </div>
 
-    <div class="flex gap-12 mx-auto max-w-4xl my-12">
+    <div class="flex">
 
-        <nav class="min-w-[250px] border rounded p-4">
-
-            <!-- test -->
-            <!-- test -->
-            <!-- test -->
-
-            {% assign grouped = site.plugins | group_by: 'category' %}
-            {% assign path_array = page.path | split: "/" %}
-            
-            {% for group in grouped %}
-                <div class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
-                    
-                    <h2>{{ group.name }}</h2>
-
-                    <div class="mb-8">
-                        {% for item in group.items %}
-                            {% if item.url contains path_array[1] %}
-                                <div class="nav-item {% if item.url == page.url %}current{% endif %}">
-                                    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-                                </div>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            {% endfor %}
-            
-
-
-            <!-- test -->
-            <!-- test -->
-            <!-- test -->
-            
-            
-            <!-- {% assign path_array = page.path | split: "/" %}            
-
-             
-            {% for plugin in site.plugins %}
-            {% if plugin.url contains path_array[1] %}
-                
-                <h2 class=" border-b border-slate-100 !py-4">
-                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
-                </h2>
-    
-            {% endif %}
-            {% endfor %}
-
-            {% assign grouped = site.plugins | group_by: 'category' %}       
-
-            {% for group in grouped %}
-            
-                <li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
-                    {% assign items = group.items | sort: 'order' %}
-
-                    
-                    <h2>{{ group.name }}</h2>
-                    <ul class=" pl-4">
-                        {% for item in items %}
-                            <li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-            {% endfor %} -->
-
-
-            <!-- test -->
-            <!-- test -->
-            <!-- test -->
-
-            <!-- <h3 class="font-bold text-2xl mb-4">Sidebar</h3>
-                        
-            {% assign path_array = page.path | split: "/" %}            
-            {% for plugin in site.plugins %}
-            {% if plugin.url contains path_array[1] %}
-                
-                <h2 class=" border-b border-slate-100 !py-4">
-                    <a href="{{ plugin.url }}">{{ plugin.title }}</a>
-                </h2>
-    
-            {% endif %}
-            {% endfor %}
-
-            <hr class="my-12">
-
-            <ul>
-                
+        <nav class="w-[260p] border-r border-slate-200 bg-slate-50 p-xl">
+            <div class="sticky top-[60px]">
                 {% assign grouped = site.plugins | group_by: 'category' %}
-                {% for group in grouped %}
+                {% assign path_array = page.path | split: "/" %}
                 
-                    <li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
-                        {% assign items = group.items | sort: 'order' %}
-
+                {% for group in grouped %}
+                    <div class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
                         
                         <h2>{{ group.name }}</h2>
-                        <ul class=" pl-4">
-                            {% for item in items %}
-                                <li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+    
+                        <div class="mb-8">
+                            {% for item in group.items %}
+                                {% if item.url contains path_array[1] %}
+                                    <div class="nav-item {% if item.url == page.url %}current{% endif %}">
+                                        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                                    </div>
+                                {% endif %}
                             {% endfor %}
                         </ul>
-                    </li>
+                    </div>
                 {% endfor %}
-            </ul> -->
+    
+                <!-- {% assign path_array = page.path | split: "/" %}                         
+                {% for plugin in site.plugins %}
+                {% if plugin.url contains path_array[1] %}
+                    
+                    <h2 class=" border-b border-slate-100 !py-4">
+                        <a href="{{ plugin.url }}">{{ plugin.title }}</a>
+                    </h2>
+        
+                {% endif %}
+                {% endfor %} -->
+            </div>
+        </nav> 
 
+        <div class="grow">
+            <div class="container-narrow flex py-xxl gap-xxxl"> 
+                <main >                    
+                    
+                    <h1 class="font-title text-giga font-normal tracking-wide mb-xl">
+                        {{ page.title }}
+                    </h1>
+                    
+                    <div class="prose">
+                        {{ content }}                    
+                    </div>
 
-        </nav>
+                </main>
+        
+                <aside class="w-[260p] p-xl">
+                    <div class="sticky top-[60px]">
+                        <h4 class="mb-md uppercase">On the page</h4>
+                        {% toc %}
+                    </div>
+                </aside> 
+            </div>
+        </div>
 
-        <main class=" mx-auto max-w-4xl my-12"> 
-            
-            {{ content }}
-        </main>
-
+    
     </div>
 
 {% include footer.html %}

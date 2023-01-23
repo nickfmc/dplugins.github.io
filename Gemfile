@@ -37,6 +37,8 @@ gem 'jekyll-watch'
 
 gem 'jekyll-admin', group: :jekyll_plugins
 
+gem 'jekyll-toc'
+
 group :jekyll_plugins do
   gem 'jekyll-algolia'
 end
