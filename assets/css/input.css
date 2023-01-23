@@ -46,6 +46,18 @@ body:has(.plugins-wrap){
     flex-grow: 1;
 }
 
+.nav-item.top-level{
+    display: none;
+}
+
+.nav-item.top-level .current{
+    @apply bg-slate-200;
+}
+
+.nav-item.top-level:has(.nav-item) {
+    display: block;
+}
+
 @media only screen and (min-width: 1700px)  {
     
     pre, 
