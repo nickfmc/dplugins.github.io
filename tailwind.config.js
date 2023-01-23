@@ -26,7 +26,9 @@ module.exports = {
         'md'    :  'var(--font-size-md)',
         'lg'    :  'var(--font-size-lg)',
         'xl'    :  'var(--font-size-xl)',
-        'giga'  :  'var(--font-size-giga)'
+        'giga'  :  'var(--font-size-giga)',
+        
+        'ultra'  :  'var(--font-size-ultra)',
       },
 
       extend: {
