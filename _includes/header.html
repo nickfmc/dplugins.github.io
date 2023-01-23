@@ -20,11 +20,13 @@
   <body>
 
   <header class="p-md border-b border-slate-200">
-      <div class="px-xl flex justify-between">
-        <a class="flex gap-md" href="{{ site.url }}">
-          <img class="w-[150px]" src="https://dplugins.com/wp-content/uploads/2021/06/dPlugins-logo.svg" alt="">
-          <div class=" font-bold mt-[0.5em]">Docs.</div>
-        </a>
+      <div class="px-xl flex justify-between items-center">
+        <div class="w-[260px]">
+          <a class="flex gap-md" href="{{ site.url }}">
+            <img class="w-[150px]" src="https://dplugins.com/wp-content/uploads/2021/06/dPlugins-logo.svg" alt="">
+            <div class=" font-bold mt-[0.5em]">Docs.</div>
+          </a>
+        </div>
 
         <div class="search-searchbar-wrap">
           <div id="search-searchbar"></div>
@@ -44,10 +46,18 @@
                 <div class="post-snippet">{{ post.excerpt }}</div>
               </div>
             {% endfor %}
-          </div>
-        
+          </div>        
           {% include algolia.html %}
         </div>
+
+
+        <nav class="flex gap-xl">
+          <a href="#">Home</a>
+          <a href="#">How to contribute</a>
+          <a href="#">Shop</a>
+          <a href="#">Plugins</a>
+        </nav>
+
       </div>
   </header>
   

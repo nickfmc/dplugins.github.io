@@ -1,8 +1,7 @@
 ---
 description: Integrate Winden to your plugins/themes easily
+title: Integration
 ---
-
-# Integration
 
 Winden is a page builder agnostic Tailwind CSS integration for Wordpress. It is designed to work with any page builder or theme — no vendor lock-in.
 

@@ -1,8 +1,7 @@
 ---
 description: How to install Winden easily, and start building your site with Tailwind CSS in no time.
+title: Installation
 ---
-
-# Installation
 
 Winden is essentially a WordPress plugin.
 

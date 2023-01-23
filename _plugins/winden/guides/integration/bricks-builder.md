@@ -1,8 +1,7 @@
 ---
 description: Bricks Builder integration
+title: Bricks Builder
 ---
-
-# Bricks Builder
 
 We have first-class support for [Bricks Builder](https://bricksbuilder.com/), a powerful page builder for WordPress.
 

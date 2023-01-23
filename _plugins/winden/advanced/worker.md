@@ -1,8 +1,7 @@
 ---
 description: Self-host the Worker
+title: Worker
 ---
-
-# Worker
 
 Each time you click the "(Re-)Generate cache" button on the Winden settings page, Winden will create a Queue with the following payload:
 

@@ -1,8 +1,7 @@
 ---
 description: Configuring your winden's behavior through the plugin setting page.
+title: Configuration
 ---
-
-# Configuration
 
 Tailwind CSS has been designed from the ground up to be extensible and customizable, so that no matter what you’re building you never feel like you’re fighting the framework. Because Tailwind CSS is a framework for building bespoke user interfaces, it has been designed from the ground up with customization in mind.
 

@@ -1,8 +1,7 @@
 ---
 description: Generate a single cached CSS file for performance.
+title: Production
 ---
-
-# Production
 
 Winden uses a hybrid approach to integrate Tailwind CSS into WordPress.
 

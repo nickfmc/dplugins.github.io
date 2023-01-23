@@ -8,7 +8,7 @@
 
     <div class="flex plugins-wrap">
 
-        <nav class="w-[260p] border-r border-slate-200 bg-slate-50 p-xl">
+        <nav class="w-[260px] border-r border-slate-200 bg-slate-50 p-xl">
             <div class="sticky top-[60px]">
                 {% assign grouped = site.plugins | group_by: 'category' %}
                 {% assign path_array = page.path | split: "/" %}
@@ -16,18 +16,25 @@
                 {% for group in grouped %}
                     <div class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
                         
-                        <hr class="my-xl">
-                        <h4 class="mb-md uppercase">{{ group.name }}</h4>
-    
+                        
+                        
                         <div class="mb-8">
+
+                            <h4 class="mb-md uppercase">{{ group.name }}</h4>
+
                             {% for item in group.items %}
                                 {% if item.url contains path_array[1] %}
-                                    <div class="nav-item {% if item.url == page.url %}current{% endif %}">
+                                    <div class="nav-item {% if item.url == page.url %}current{% endif %} test">
                                         <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                                     </div>
                                 {% endif %}
                             {% endfor %}
-                        </ul>
+                            
+                            <hr class="my-xl">
+
+                        </div>
+
+
                     </div>
                 {% endfor %}
     
@@ -58,8 +65,8 @@
 
                 </main>
         
-                <aside class="w-[260p] p-xl">
-                    <div class="sticky top-[60px]">
+                <aside class="w-[260px]">
+                    <div class="sticky top-[60px] p-xl bg-slate-50 rounded border border-slate-200">
                         <h4 class="mb-md uppercase">On the page</h4>
                         {% include toc.html html=content %}
                     </div>

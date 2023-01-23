@@ -46,7 +46,11 @@ body:has(.plugins-wrap){
     flex-grow: 1;
 }
 
-pre, 
-figure{
-    @apply -mx-xxl rounded-lg overflow-hidden;
+@media only screen and (min-width: 1700px)  {
+    
+    pre, 
+    figure{
+        @apply -mx-xxl rounded-lg overflow-hidden;
+    }
+
 }

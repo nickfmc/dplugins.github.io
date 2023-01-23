@@ -1,9 +1,8 @@
 ---
 order: 1
 description: Winden is a Tailwind CSS integration for WordPress page builders.
+title: Introduction
 ---
-
-# Introduction
 
 🪄 Winden will help you enjoy **building a beautiful website using page builder and Tailwind CSS**.
 
