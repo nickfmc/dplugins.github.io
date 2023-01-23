@@ -37,3 +37,4 @@ categories-order:
 
 algolia:
   application_id: 'YF7ULZ0QZ9'
+  index_name:     'jekyll'

@@ -38,5 +38,5 @@ gem 'jekyll-watch'
 gem 'jekyll-admin', group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia', '~> 1.0'
+  gem 'jekyll-algolia'
 end

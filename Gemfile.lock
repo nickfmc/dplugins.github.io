@@ -115,7 +115,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.1)
   jekyll-admin
-  jekyll-algolia (~> 1.0)
+  jekyll-algolia
   jekyll-feed (~> 0.12)
   jekyll-watch
   tzinfo (>= 1, < 3)
