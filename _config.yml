@@ -36,5 +36,6 @@ categories-order:
  - advanced
 
 algolia:
-  application_id: 'YF7ULZ0QZ9'
-  index_name:     'jekyll'
+   application_id: 'YF7ULZ0QZ9'
+   index_name: 'blog'
+   search_only_api_key: '8ca1cb33ffb0548257bc4ffc8fd4f27d'
