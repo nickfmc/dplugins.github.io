@@ -1362,6 +1362,11 @@ video {
   padding-right: var(--space-size-base);
 }
 
+.px-md {
+  padding-left: var(--space-size-md);
+  padding-right: var(--space-size-md);
+}
+
 .pb-xxl {
   padding-bottom: var(--space-size-xxl);
 }
