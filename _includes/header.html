@@ -20,8 +20,31 @@
   <body>
 
   <div class="p-md border-b border-slate-200">
-      <div class="container">
+      <div class="container flex justify-between">
         <a href="{{ site.url }}">Homepage</a>
+
+        <div class="search-searchbar-wrap">
+          <div id="search-searchbar"></div>
+
+          <div class="post-list" id="search-hits">
+            {% for post in site.posts %}
+              <div class="post-item">
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+        
+                <h2>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h2>
+        
+                <div class="post-snippet">{{ post.excerpt }}</div>
+              </div>
+            {% endfor %}
+          </div>
+        
+          {% include algolia.html %}
+        </div>
       </div>
   </div>
   
