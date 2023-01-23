@@ -34,3 +34,6 @@ defaults:
 categories-order:
  - guides
  - advanced
+
+algolia:
+  application_id: 'YF7ULZ0QZ9'
