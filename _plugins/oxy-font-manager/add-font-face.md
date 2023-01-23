@@ -1,8 +1,11 @@
 ---
-title: 'Add Font Face'
+title: Add Font Face
 ---
 
-<figure class="wp-block-image size-large">![screenshot 2022 03 10 at 20.25.55](https://docs.dplugins.com/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.25.55-800x386.png)</figure><figure class="wp-block-image size-large">![screenshot 2022 03 10 at 20.31.55](https://docs.dplugins.com/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.31.55-800x730.png)</figure>## Font Weight
+![](/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.25.55-800x386.png)
+
+![](/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.31.55-800x730.png)
+## Font Weight
 
 Available options 100 to 900
 

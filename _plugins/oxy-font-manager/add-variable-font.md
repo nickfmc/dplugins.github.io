@@ -1,14 +1,17 @@
 ---
-title: 'Add Variable Font'
+title: Add Variable Font
 ---
 
-<figure class="wp-block-image size-large">![screenshot 2022 03 10 at 20.41.15](https://docs.dplugins.com/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.41.15-800x615.png)</figure>The difference between Static and Variable fonts is that Variable fonts contain all font faces in one file.
+![](/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.41.15-800x615.png)
+
+The difference between Static and Variable fonts is that Variable fonts contain all font faces in one file.
 
 ## Font weight
 
 Define font-weight ratio. On Google's Font website you can see the list with Min and Max values
 
-<figure class="wp-block-image size-large is-resized">![screenshot 2022 03 10 at 20.44.18](https://docs.dplugins.com/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.44.18-800x518.png)</figure>## Upload Woff and Woff2
+![](/wp-content/uploads/2022/03/Screenshot-2022-03-10-at-20.44.18-800x518.png)
+## Upload Woff and Woff2
 
 1. You can paste CDN
 2. You can paste the local path
