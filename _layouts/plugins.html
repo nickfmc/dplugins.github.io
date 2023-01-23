@@ -4,7 +4,7 @@
 
         <nav class="w-[260px] border-r border-slate-200 bg-slate-50 p-xl">
             <div class="sticky top-[60px]">
-                {% assign grouped = site.plugins | sort: 'order' | group_by: 'category' %}
+                {% assign grouped = site.plugins | sort: 'order' group_by: 'category' %}
                 {% assign path_array = page.path | split: "/" %}
                 
                 {% for group in grouped %}
