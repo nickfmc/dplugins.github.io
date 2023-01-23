@@ -16,7 +16,8 @@
                 {% for group in grouped %}
                     <div class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
                         
-                        <h2>{{ group.name }}</h2>
+                        <hr class="my-xl">
+                        <h4 class="mb-md uppercase">{{ group.name }}</h4>
     
                         <div class="mb-8">
                             {% for item in group.items %}

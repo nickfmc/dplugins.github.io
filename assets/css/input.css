@@ -45,3 +45,8 @@ body:has(.plugins-wrap){
 .plugins-wrap{
     flex-grow: 1;
 }
+
+pre, 
+figure{
+    @apply -mx-xxl rounded-lg overflow-hidden;
+}

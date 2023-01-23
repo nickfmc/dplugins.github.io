@@ -1052,6 +1052,10 @@ video {
   left: 0;
 }
 
+.right-0 {
+  right: 0;
+}
+
 .top-0 {
   top: 0;
 }
@@ -1069,6 +1073,15 @@ video {
   margin-bottom: var(--space-size-xxl);
 }
 
+.my-xl {
+  margin-top: var(--space-size-xl);
+  margin-bottom: var(--space-size-xl);
+}
+
+.mt-\[0\.5em\] {
+  margin-top: 0.5em;
+}
+
 .mt-base {
   margin-top: var(--space-size-base);
 }
@@ -1083,6 +1096,10 @@ video {
 
 .mb-md {
   margin-bottom: var(--space-size-md);
+}
+
+.mt-xl {
+  margin-top: var(--space-size-xl);
 }
 
 .block {
@@ -1117,12 +1134,20 @@ video {
   display: none;
 }
 
+.h-\[400\%\] {
+  height: 400%;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-\[24px\] {
   height: 24px;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .w-full {
@@ -1147,6 +1172,11 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.-translate-y-\[25\%\] {
+  --tw-translate-y: -25%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-y-1\/2 {
@@ -1181,6 +1211,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-md {
+  gap: var(--space-size-md);
 }
 
 .gap-xxl {
@@ -1311,6 +1345,11 @@ video {
   padding-right: var(--space-size-xl);
 }
 
+.px-xxl {
+  padding-left: var(--space-size-xxl);
+  padding-right: var(--space-size-xxl);
+}
+
 .pb-xxl {
   padding-bottom: var(--space-size-xxl);
 }
@@ -1347,16 +1386,16 @@ video {
   font-size: var(--font-size-md);
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .uppercase {
@@ -1568,12 +1607,24 @@ body:has(.plugins-wrap){
   flex-grow: 1;
 }
 
+pre, 
+figure {
+  margin-left: calc(var(--space-size-xxl) * -1);
+  margin-right: calc(var(--space-size-xxl) * -1);
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
