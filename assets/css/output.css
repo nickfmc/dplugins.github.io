@@ -1078,6 +1078,11 @@ video {
   margin-bottom: var(--space-size-xl);
 }
 
+.my-xxxl {
+  margin-top: var(--space-size-xxxl);
+  margin-bottom: var(--space-size-xxxl);
+}
+
 .mt-\[0\.5em\] {
   margin-top: 0.5em;
 }
