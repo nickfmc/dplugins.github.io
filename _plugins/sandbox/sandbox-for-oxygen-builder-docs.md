@@ -1,19 +1,5 @@
 ---
-id: 19577
 title: 'SandBox for Oxygen Builder'
-date: '2021-07-01T07:41:21+00:00'
-author: devusrmk
-layout: sandbox
-guid: 'http://dplugins.local/?post_type=docs&#038;p=19577'
-permalink: /sandbox/sandbox-for-oxygen-builder-docs/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-algolia_posts_sandbox_records_count:
-    - '1'
-hide_title:
-    - '1'
 ---
 
 ## Installation, Free Version
@@ -50,4 +36,4 @@ For the Pro version to work license must be activated.
 - Paste your license key
 - Save Changes
 
-<figure class="wp-block-image size-large">![](https://docs.dplugins.com/wp-content/uploads/2021/10/Screenshot-2021-07-01-at-09.56.01-1024x677.png)</figure>
+![](/wp-content/uploads/2021/10/Screenshot-2021-07-01-at-09.56.01-1024x677.png)
