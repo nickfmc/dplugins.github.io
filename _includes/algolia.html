@@ -62,15 +62,6 @@ search.start();
 </script>
 
 <style>
-.search-searchbar-wrap{
-    max-width: 800px;
-    width: 100%;
-}    
-
-#search-searchbar{
-  width: 100%;
-}
-
 .ais-search-box {
   max-width: 100%;
   width: 100%;
@@ -111,5 +102,14 @@ search.start();
     right: 10px;
     top: 10px;
     opacity: 0.5;
+}
+
+div#search-hits {
+    position: absolute;
+    background: rgb(236, 236, 236);
+    z-index: 1;
+    height: 60vh;
+    overflow: scroll;
+    padding: 20px;
 }
 </style>
