@@ -61,11 +61,32 @@ search.addWidget(
 search.start();
 
 
-document.addEventListener("click", function(event) {
+// Hide show search results
+const searchContainer = document.getElementById("search-container");
+const searchHits = document.getElementById("search-hits");
+
+document.addEventListener("click", (event) => {
     if (!event.target.closest("#search-container")) {
-        document.getElementById("search-hits").style.display = "none";
+        searchHits.style.display = "none";
+        stopSearch();
     }
 });
+
+searchContainer.addEventListener("click", (event) => {
+    searchHits.style.display = "block";
+    startSearch();
+});
+
+function startSearch() {
+    // code to start the search process
+}
+
+function stopSearch() {
+    // code to stop the search process
+}
+
+// End of Hide show search results
+
 
 </script>
 
