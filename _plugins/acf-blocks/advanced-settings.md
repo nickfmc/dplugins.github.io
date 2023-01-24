@@ -6,7 +6,12 @@ title: Advanced Settings
 
 Those options are disabled by default as they may overwhelm beginners. Scroll to the bottom of the settings and enable it by switching the toggle.
 
-<div class="is-layout-flex wp-container-60 wp-block-columns"><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-large">![screenshot 2022 05 25 at 21.46.48](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.46.48-800x1217.png)</figure></div><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-large">![screenshot 2022 05 26 at 13.37.07](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.37.07-800x1796.png)</figure></div></div>## JSX (for inner blocks)
+<div class="is-layout-flex wp-container-60 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
+
+<figure class="wp-block-image size-large">![screenshot 2022 05 25 at 21.46.48](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.46.48-800x1217.png)</figure></div><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-large">![screenshot 2022 05 26 at 13.37.07](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.37.07-800x1796.png)</figure></div></div>
+
+## JSX (for inner blocks)
 
 To enable adding blocks inside your block you need to:
 
