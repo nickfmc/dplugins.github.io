@@ -11,27 +11,37 @@ title: Create Gutenberg Block
 7. **Description**
 8. **Code Block**
 
-<figure class="wp-block-image size-large">![block preview 1](https://docs.dplugins.com/wp-content/uploads/2022/05/block-preview-1-800x540.png)</figure>## Block Title 
+![](/wp-content/uploads/2022/05/block-preview-1-800x540.png)
 
+## Block Title 
 will define block name be displayed when you try to add Gutenberg block. You can add Gutenberg block in several ways. Most common is to type slash "/" and then start typing block name or to press plus "+".
 
-<div class="is-layout-flex wp-container-49 wp-block-columns"><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-full">![screenshot 2022 05 15 at 19.24.16](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.16.png)</figure></div><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-large">![screenshot 2022 05 15 at 19.24.34](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)</figure></div></div>## Quick Toggle
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.16.png)
 
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)
+
+## Quick Toggle
 This switch can help you quickly disable blocks without need to delete them.
 
 ## Icon
 
 is visual representation when you try to add block same as title. For icons we are using WordPress [dashicons](https://developer.wordpress.org/resource/dashicons/#image-rotate-left) and entire list can be found inside the link bellow icon name field.
 
-When you are adding icon name do not include <mark class="has-inline-color has-vivid-red-color" style="background-color:rgba(0, 0, 0, 0)">**"dashicons-"**</mark>. In example bellow pasted name should be: **"**admin-comments**"**.
+When you are adding icon name do not include <mark class="has-inline-color has-vivid-red-color" style="background-color:rgba(0, 0, 0, 0)">**"dashicons-"**</mark>. 
+In example bellow pasted name should be: **"**admin-comments**"**.
 
-<figure class="wp-block-image size-large">![screenshot 2022 05 15 at 19.42.00](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.42.00-800x636.png)</figure>## Category
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.42.00-800x636.png)
 
+## Category
 Is the location where your code block will be placed. If try to add block and you press **Browse all** you will get a list of all blocks grouped in categories.
 
 In our example you can find it under **TEXT** category.
 
-<div class="is-layout-flex wp-container-52 wp-block-columns"><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-large">![screenshot 2022 05 15 at 19.24.34](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)</figure></div><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-full">![screenshot 2022 05 15 at 19.46.50](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.46.50.png)</figure></div></div><div class="is-layout-flex wp-container-55 wp-block-columns"><div class="is-layout-flow wp-block-column">**Available categories are:**
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)
+
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.46.50.png)
+
+**Available categories are:**
 
 - Text
 - Media
@@ -40,7 +50,9 @@ In our example you can find it under **TEXT** category.
 - Theme
 - Embed
 
-</div><div class="is-layout-flow wp-block-column"><figure class="wp-block-image size-full">![screenshot 2022 05 15 at 19.50.35](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.50.35.png)</figure></div></div>## **Keywords**
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.50.35.png)
+
+## Keywords
 
 Will are additional tags to help you find and you blocks easier.
 
@@ -59,13 +71,18 @@ This is a place where you call your CSS or JS files for your block. We decided n
 
 Example for that is if you have two user cards and one is vertical and another is horizontal. They look almost the same but orientation of elements and some of the elements are different. You can get a way with reusing css and add another class on main wrap of the block.
 
-<figure class="wp-block-image size-full">![screenshot 2022 05 15 at 20.10.30](https://docs.dplugins.com/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.10.30.png)</figure><div class="is-layout-flow wp-block-group"><div class="wp-block-group__inner-container">### For explaining Styling in details please check our Styling instructions
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.10.30.png)
 
-<div class="is-content-justification-center is-layout-flex wp-container-56 wp-block-buttons"><div class="wp-block-button">[Style Block Guide](https://docs.dplugins.com/acf_blocks/style-blocks/)</div></div></div></div>## Descriptions
+### For explaining Styling in details please check our Styling instructions
 
+[Style Block Guide](https://docs.dplugins.com/acf_blocks/style-blocks/)
+
+## Descriptions
 will help you better document what this the function of this block you if you are working in teams this is perfect place to leave notes for your colleagues without rendering comments in websites HTML.
 
-<figure class="wp-block-image size-large">![image](https://docs.dplugins.com/wp-content/uploads/2022/05/image-800x245.png)</figure>## Code Block
+![image](/wp-content/uploads/2022/05/image-800x245.png)
+
+## Code Block
 
 Place where you will be placing your code. This is PHP code block, but to write PHP you need to wrap it in &lt;?php ?&gt; tag. If you need static elements you can write HTML as well.
 

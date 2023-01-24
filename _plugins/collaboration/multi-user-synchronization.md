@@ -8,6 +8,8 @@ This feature works outside of the box and only one pusher setup is needed you do
 
 Once you press on the calibration beds you will see a list of all users and which page he is or they are currently editing.
 
-<figure class="wp-block-image size-large">![screenshot 2021 10 29 at 11.36.03](https://docs.dplugins.com/wp-content/uploads/2021/10/Screenshot-2021-10-29-at-11.36.03-800x203.png)</figure>## Permaslug Video about Multi-User Synchronization
+![](/wp-content/uploads/2021/10/Screenshot-2021-10-29-at-11.36.03-800x203.png)
 
-\[yt id=FrF6IqgUJ9U\]
+## Permaslug Video about Multi-User Synchronization
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FrF6IqgUJ9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

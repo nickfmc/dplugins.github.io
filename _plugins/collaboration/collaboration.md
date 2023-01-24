@@ -11,8 +11,10 @@ If you are a solo freelancer, this tool will still be beneficial for you as you 
 
 ## Even Oxygen team was impressed
 
-<figure class="wp-block-image size-large">![oxygen team is impressed 1](https://docs.dplugins.com/wp-content/uploads/2021/10/Oxygen-Team-is-impressed-1-800x410.jpg)</figure>Take a look at the video that [**Permaslug team**](https://youtu.be/FrF6IqgUJ9U?t=2722) did.
+![oxygen team is impressed](/wp-content/uploads/2021/10/Oxygen-Team-is-impressed-1-800x410.jpg)
+
+Take a look at the video that [**Permaslug team**](https://youtu.be/FrF6IqgUJ9U?t=2722) did.
 
 ## Permaslug Team video Review
 
-\[yt id=FrF6IqgUJ9U\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FrF6IqgUJ9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

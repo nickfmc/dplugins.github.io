@@ -29,7 +29,7 @@ Please read the [official documentation](https://wordpress.org/support/article/m
 
 The Collaboration plugin uses the [Pusher.com](https://pusher.com/channels) service on its core, allowing it to achieve real-time experience in economic and easy to setup.
 
-\[yt id=eDi0MQXQDIg\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDi0MQXQDIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To allow you to use the real-time feature, you need a [Pusher.com](http://pusher.com/) App Keys.
 
@@ -64,4 +64,4 @@ When the new version is available, you will get the update notification and do u
 
 ## Entire Installation in the video
 
-\[yt id=q51xhGxTk5k\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q51xhGxTk5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
