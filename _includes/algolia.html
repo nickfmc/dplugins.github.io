@@ -7,7 +7,8 @@
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}'
+  indexName: '{{ site.algolia.index_name }}',
+  stalledSearchDelay: 1000, // this is the default value for the dela
 });
 
 const hitTemplate = function(hit) {
