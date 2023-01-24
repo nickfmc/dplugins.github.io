@@ -59,6 +59,14 @@ search.addWidget(
 );
 
 search.start();
+
+
+document.addEventListener("click", function(event) {
+    if (!event.target.closest("#search-container")) {
+        document.getElementById("search-container").style.display = "none";
+    }
+});
+
 </script>
 
 <style>
