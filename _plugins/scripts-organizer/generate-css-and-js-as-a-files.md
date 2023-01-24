@@ -1,21 +1,5 @@
 ---
-id: 15483
 title: 'Create a file'
-date: '2021-05-21T17:05:01+00:00'
-author: devusrmk
-layout: scripts-organizer
-guid: 'http://dplugins.local/?post_type=docs&#038;p=15483'
-permalink: /scripts-organizer/generate-css-and-js-as-a-files/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-algolia_posts_scripts-organizer_records_count:
-    - '1'
-hide_title:
-    - '0'
-updated:
-    - '0'
 ---
 
 ## Generate CSS and JS as a files
@@ -28,11 +12,11 @@ We made that easy for you. Whenever you choose JS, CSS, or SCSS from the dropdow
 
 If the checkbox is enabled file will be created. If the checkbox is disabled code will be injected as inline.
 
-<figure class="wp-block-image size-full is-resized">![screenshot 2021 11 09 at 12.01.32](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-09-at-12.01.32.png)</figure>## Inline style or Script
+![](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-09-at-12.01.32.png)
+
+## Inline style or Script
 
 ```
-<pre class="wp-block-code">```
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,13 +37,12 @@ If the checkbox is enabled file will be created. If the checkbox is disabled cod
 </body>
 </html>
 ```
-```
 
 ## Create a file checked option
 
-<figure class="wp-block-image size-full is-resized">![screenshot 2021 11 09 at 12.01.52](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-09-at-12.01.52.png)</figure>```
-<pre class="wp-block-code">```
+![](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-09-at-12.01.52.png)
 
+```
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -79,6 +62,3 @@ If the checkbox is enabled file will be created. If the checkbox is disabled cod
 </body>
 </html>
 ```
-```
-
-</body></html>

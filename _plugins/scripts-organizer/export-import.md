@@ -1,21 +1,5 @@
 ---
-id: 27763
 title: Export-Import
-date: '2021-09-15T16:38:15+00:00'
-author: devusrmk
-layout: scripts-organizer
-guid: 'http://dplugins.local/?post_type=docs&#038;p=27763'
-permalink: /scripts-organizer/export-import/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '2'
-algolia_posts_scripts-organizer_records_count:
-    - '2'
-hide_title:
-    - '0'
-updated:
-    - '0'
 ---
 
 ## Scripts Organizer Bulk Export
@@ -26,25 +10,30 @@ After making the selection click on **Bulk actions &gt; Export Selected and then
 
 You will get a .JSON file to store it on your computer.
 
-<figure class="wp-block-image size-large">![screenshot 2021 11 10 at 09.03.26](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.03.26-800x625.png)</figure>## <meta charset="utf-8"></meta>Scripts Organizer Single Export
+![](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.03.26-800x625.png)
+
+## Scripts Organizer Single Export
 
 If you want to export only one or multiple by doing it one by one you can simply hover the title to get extra options.
 
 Press the **Export** link and you will get <meta charset="utf-8"></meta>a .JSON file to store it on your computer.
 
-<figure class="wp-block-image size-large">![screenshot 2021 11 10 at 09.07.47](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.07.47-800x490.png)</figure>## <meta charset="utf-8"></meta>Import Scripts
+![](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.07.47-800x490.png)
+
+## Import Scripts
 
 Once you got .JSON file navigate to the **Scripts Organizer &gt; Import**
 
-<figure class="wp-block-image size-full is-resized">![screenshot 2021 11 10 at 09.09.22](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.09.22.png)</figure>**There you will be presented with three sections:**
+![](https://docs.dplugins.com/wp-content/uploads/2021/11/Screenshot-2021-11-10-at-09.09.22.png)
+**There you will be presented with three sections:**
 
 1. Scripts Organizer Import
 2. Code Snippets Import
 3. Advanced Scripts Import
 
-## <meta charset="utf-8"></meta>Scripts Organizer Import
+## Scripts Organizer Import
 
-### Code Blocks Export <meta charset="utf-8"></meta>Import
+### Code Blocks Export/Import
 
 Importing is pretty straightforward.
 
@@ -58,7 +47,7 @@ Exporting and Importing **SCSS Partials** is the same as exporting Code Blocks. 
 
 **Note**: If you need to keep partials assigned to the Code Block you need to export and import SCSS Partials first and then Code Blocks.
 
-\[yt id=KkiGkblUGKY\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KkiGkblUGKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Import CodeSnippets
 
@@ -76,7 +65,7 @@ Choose file and press the Import JSON button.
 
 **Data that will not be imported:** Tags, Code is enabled ( will be disabled ), Tags
 
-\[yt id=ibMsAvPfLPM\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ibMsAvPfLPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Import Advanced Scripts
 
@@ -84,7 +73,8 @@ Exporting Code from <meta charset="utf-8"></meta>Adv. Scr. is a little more diff
 
 Once you are in the app, select which code you want to export and click Export.
 
-<figure class="wp-block-image size-full">![](https://docs.dplugins.com/wp-content/uploads/2021/10/Screenshot-2021-09-15-at-17.42.00-768x414-1.png)</figure>Once you have .JSON file navigate to
+![](https://docs.dplugins.com/wp-content/uploads/2021/10/Screenshot-2021-09-15-at-17.42.00-768x414-1.png)
+Once you have .JSON file navigate to
 
 1. Scripts Organizer
 2. Import
@@ -92,7 +82,8 @@ Once you are in the app, select which code you want to export and click Export.
 
 Choose file and press the Import JSON button.
 
-\[yt id=I2THLDp0POU\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I2THLDp0POU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 **Data that will be imported:** Title, Code Block, Locations, Type, Description
 

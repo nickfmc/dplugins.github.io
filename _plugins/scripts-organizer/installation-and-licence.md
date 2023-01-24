@@ -1,21 +1,5 @@
 ---
-id: 10816
-title: 'Installation and Licence'
-date: '2021-04-20T17:38:42+00:00'
-author: devusrmk
-layout: scripts-organizer
-guid: 'http://dplugins.local/?post_type=docs&#038;p=10816'
-permalink: /scripts-organizer/installation-and-licence/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-algolia_posts_scripts-organizer_records_count:
-    - '1'
-hide_title:
-    - '0'
-updated:
-    - '0'
+title: Installation and Licence
 ---
 
 ## Installation Method 1:
@@ -50,7 +34,13 @@ To be able to use a plugin or get the latest updates, the plugin needs to be act
 4. If your license is valid you will be redirected straight away to the Scripts Page to create your first script.
 5. If you want to check the status of your license go back to the "Licence &amp; Support" page and locate the label Status and "Active" green badge.
 
-<figure class="wp-block-image size-full">![](https://docs.dplugins.com/wp-content/uploads/2021/10/licence-not-active.png)<figcaption>Licence Not Active</figcaption></figure><figure class="wp-block-image size-full">![](https://docs.dplugins.com/wp-content/uploads/2021/10/licence-active.png)<figcaption>Licence Active</figcaption></figure>## Retrieving license and plugin file
+![](https://docs.dplugins.com/wp-content/uploads/2021/10/licence-not-active.png)
+Licence Not Active
+
+![](https://docs.dplugins.com/wp-content/uploads/2021/10/licence-active.png)
+Licence Activ
+
+## Retrieving license and plugin file
 
 1. Go to the shops ["Login"](https://docs.dplugins.com/login/) page
 2. Enter your credentials

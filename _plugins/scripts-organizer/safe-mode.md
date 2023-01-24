@@ -1,38 +1,14 @@
 ---
-id: 2329
-title: 'Safe mode'
-date: '2021-01-19T15:30:23+00:00'
-author: devusrmk
-layout: scripts-organizer
-guid: 'http://dplugins.local/?post_type=docs&#038;p=2329'
-permalink: /scripts-organizer/safe-mode/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-soon:
-    - ''
-rank_math_analytic_object_id:
-    - '1'
-rank_math_internal_links_processed:
-    - '1'
-new_feature:
-    - ''
-algolia_posts_scripts-organizer_records_count:
-    - '1'
-hide_title:
-    - '0'
-updated:
-    - '0'
+title: Safe mode
 ---
 
 ## PHP Safe mode
 
-\[yt id=NaIus5Izlu0\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NaIus5Izlu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## SCSS Safe mode
 
-\[yt id=LAfQJ8oMnG8\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAfQJ8oMnG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 No more fear for last-minute online edits. In case if something goes wrong we got your back. Every time you save a script, Scripts Organizer is validating your code, if there are any errors we automatically go into the safe mode.
 
@@ -65,4 +41,4 @@ www.websitename.com/`?scorg_safemode=yes`
 
 #### Note: you need to be logged in as admin for this to force it.
 
-\[yt id=JOVIwa9AnEo\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JOVIwa9AnEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
