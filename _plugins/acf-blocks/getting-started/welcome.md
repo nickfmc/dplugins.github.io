@@ -1,5 +1,6 @@
 ---
-title: Scripts Organizer - ACF Gutenberg Addon
+title: Welcome
+order: 1
 ---
 
 **Please take a look at this video to get you started**

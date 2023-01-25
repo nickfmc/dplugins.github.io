@@ -1,5 +1,6 @@
 ---
 title: Installation
+order: 2
 ---
 
 **To install the plugin you need to do the next steps:**

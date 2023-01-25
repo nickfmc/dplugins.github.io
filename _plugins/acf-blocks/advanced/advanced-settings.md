@@ -6,15 +6,9 @@ title: Advanced Settings
 
 Those options are disabled by default as they may overwhelm beginners. Scroll to the bottom of the settings and enable it by switching the toggle.
 
-
-<div class="is-layout-flex wp-container-60 wp-block-columns">
-    <div class="wp-block-column">
-        ![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.46.48-800x1217.png)
-    </div>
-    <div class="wp-block-column">
-        ![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.37.07-800x1796.png)
-    </div>
-</div>
+{: .col-2}
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.46.48-800x1217.png){: .half-img}
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.37.07-800x1796.png){: .half-img}
 
 ## JSX (for inner blocks)
 To enable adding blocks inside your block you need to:

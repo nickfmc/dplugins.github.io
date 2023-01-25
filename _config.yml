@@ -16,26 +16,49 @@ defaults:
       order: "10"
   - 
     scope:
+      path: "_plugins/*/getting-started"
+      type: "plugins"
+    values:
+      category: "Getting Started"
+  - 
+    scope:
+      path: "_plugins/*/basics"
+      type: "plugins"
+    values:
+      category: "Basics"
+  - 
+    scope:
       path: "_plugins/*/guides"
       type: "plugins"
     values:
-      category: "guides"
+      category: "Guides"
   - 
     scope:
       path: "_plugins/*/advanced"
       type: "plugins"
     values:
-      category: "advanced"
+      category: "Advanced"
   - 
     scope:
-      path: "_plugins/*/{{dir}}"
+      path: "_plugins/*/tutorials"
       type: "plugins"
     values:
-      category: "{{dir}}"
+      category: "Tutorials"
+  - 
+    scope:
+      path: "_plugins/*/integrations"
+      type: "plugins"
+    values:
+      category: "Integrations"
 
-categories-order:
- - guides
- - advanced
+category_order:
+  - getting-started
+  - basics
+  - guides
+  - advanced
+  - integrations
+  - tutorials
+  - faq
 
 algolia:
    application_id: YF7ULZ0QZ9
