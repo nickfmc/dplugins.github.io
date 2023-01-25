@@ -50,7 +50,7 @@ body:has(.plugins-wrap){
     display: none;
 }
 
-.nav-item.top-level .current{
+.nav-item.top-level .current a{
     @apply bg-slate-200;
 }
 
@@ -60,13 +60,17 @@ body:has(.plugins-wrap){
 
 @media only screen and (min-width: 1700px)  { 
     
-    pre, 
-    figure{
+    body.plugins pre, 
+    body.plugins figure{
         @apply rounded-lg overflow-hidden w-full;
         margin-left: calc(var(--space-size-xxl) * -1);
         margin-right: calc(var(--space-size-xxl) * -1);
         width: calc(100% + calc(var(--space-size-xxl) * 2 ));
     }
+}
+
+pre{
+    @apply my-xl bg-slate-100 p-lg rounded;
 }
 
 

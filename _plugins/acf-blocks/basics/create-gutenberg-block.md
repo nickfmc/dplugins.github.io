@@ -1,5 +1,6 @@
 ---
 title: Create Gutenberg Block
+order: 1
 ---
 
 1. **Title**

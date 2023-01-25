@@ -39,26 +39,14 @@ Read more about "Inserter" on [WordPress Reference Guide.](https://developer.wor
 
 This will allow you to add horizontal align classes from the toolbar. You can choose witch options you want to add to the toolbar.
 
-<div class="wp-block-columns">
-    <div class="wp-block-column">
-        ![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.07.24.png)
-    </div>
-    <div class="wp-block-column">
-        ![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.08.58.png)
-    </div>
-</div>
+{: .col-2}
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.07.24.png)
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.08.58.png)
 
-<div class="wp-block-columns">
-    <div class="wp-block-column">
-        ![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.15.png)
-    </div>
-</div>
+{: .col-2}
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.15.png)
+![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.08.png)
 
-<div class="wp-block-column">
-    ![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.08.png)
-</div>
-
-</div>
 
 ```
 // This needs review
@@ -132,7 +120,7 @@ Will replace automatic generated ID values to help you link easier to the curren
 
 ## Code Boilerplate
 
-```
+```php
 <?php
 
 
