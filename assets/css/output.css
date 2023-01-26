@@ -1467,6 +1467,14 @@ video {
   text-decoration-line: underline;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
 .mix-blend-multiply {
   mix-blend-mode: multiply;
 }
@@ -1616,12 +1624,12 @@ body:has(.plugins-wrap){
 }
 
 .nav-item.top-level {
-  margin-bottom: var(--space-size-xxl);
+  margin-bottom: var(--space-size-xl);
   display: none;
   border-bottom-width: 1px;
   --tw-border-opacity: 1;
   border-bottom-color: rgb(226 232 240 / var(--tw-border-opacity));
-  padding-bottom: var(--space-size-xxl);
+  padding-bottom: var(--space-size-xl);
 }
 
 .nav-item.top-level .current a {
