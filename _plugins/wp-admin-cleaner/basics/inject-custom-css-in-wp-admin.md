@@ -8,4 +8,4 @@ If you trigger switch "Inject Custom CSS" you will get a code editor to write yo
 
 The code editor is not extra burden as we reusing code mirror that is already shipped with WordPress.
 
-<figure class="wp-block-image size-large">![screenshot 2022 01 02 at 17.49.51](https://docs.dplugins.com/wp-content/uploads/2022/01/Screenshot-2022-01-02-at-17.49.51-800x628.png)</figure>
+![](../../img/inject-css.png)
