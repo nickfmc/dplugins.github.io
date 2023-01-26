@@ -4,7 +4,7 @@
 
         <nav class="w-[260px] border-r border-slate-200 bg-slate-50 p-lg">
             <div class="sticky top-[60px]">
-                {% assign grouped = site.plugins | sort: 'category_order' | group_by: 'category'  %}
+                {% assign grouped = site.plugins | sort: 'category_order' | sort: 'order' | group_by: 'category'  %}
                 {% assign path_array = page.path | split: "/" %}
                 
                 {% for group in grouped %}
@@ -77,53 +77,5 @@
     
     </div>
 
-<script>
-    // assets/js/post.js
-    var codeBlocks = document.querySelectorAll('pre.highlight');
-
-    codeBlocks.forEach(function (codeBlock) {
-    var copyButton = document.createElement('button');
-    copyButton.className = 'copy';
-    copyButton.type = 'button';
-    copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = 'Copy';
-
-    codeBlock.append(copyButton);
-
-    copyButton.addEventListener('click', function () {
-        var code = codeBlock.querySelector('code').innerText.trim();
-        window.navigator.clipboard.writeText(code);
-
-        copyButton.innerText = 'Copied';
-        var fourSeconds = 4000;
-
-        setTimeout(function () {
-        copyButton.innerText = 'Copy';
-        }, fourSeconds);
-    });
-    });
-</script>    
-
-<style>
-    pre.highlight{
-        position: relative;
-    }
-
-    pre.highlight > button {
-        opacity: 0;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-
-    pre.highlight:hover > button {
-    opacity: 1;
-    }
-
-    pre.highlight > button:active,
-    pre.highlight > button:focus {
-    opacity: 1;
-    }
-</style>
 
 {% include footer.html %}
