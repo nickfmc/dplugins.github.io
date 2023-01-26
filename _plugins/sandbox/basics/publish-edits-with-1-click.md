@@ -6,7 +6,7 @@ We lied on this one a little. It's actually two clicks since we introduced the c
 
 When changes are approved by your client or you are happy with the result to back to Sandbox Settings and hit Publish button.
 
-![](/wp-content/uploads/2021/10/Screenshot-2021-07-01-at-13.28.43-1024x259.png)
+![](../../img/publish.png)
 
 Once the button is pressed you will get a confirmation dialog box.
 

@@ -1,19 +1,5 @@
 ---
-id: 29223
 title: 'WordPress Admin Dark Theme'
-date: '2022-01-02T16:05:21+00:00'
-author: devusrmk
-layout: wp-admin-cleaner
-guid: 'https://docs.dplugins.com/?post_type=wp-admin-cleaner&#038;p=29223'
-permalink: /wp-admin-cleaner/wordpress-admin-dark-theme/
-algolia_searchable_posts_records_count:
-    - '1'
-algolia_posts_wp-admin-cleaner_records_count:
-    - '1'
-hide_title:
-    - '0'
-updated:
-    - '0'
 ---
 
 ## Activate Themes
@@ -25,7 +11,9 @@ The entire theme is **only 3kb** and will have no impact on admin performance. T
 It is disabled by default and you can enable it under the new 3rd tab (Themes).   
 **Toggle WP Admin switch.**
 
-<figure class="wp-block-image size-large">![screenshot 2022 01 02 at 17.10.15](https://docs.dplugins.com/wp-content/uploads/2022/01/Screenshot-2022-01-02-at-17.10.15-800x432.png)</figure>#### Dark vs Light theme preview
+<figure class="wp-block-image size-large">![screenshot 2022 01 02 at 17.10.15](https://docs.dplugins.com/wp-content/uploads/2022/01/Screenshot-2022-01-02-at-17.10.15-800x432.png)</figure>
+
+#### Dark vs Light theme preview
 
 ## Pages List Preview
 
