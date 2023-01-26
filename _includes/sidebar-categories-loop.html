@@ -1,4 +1,21 @@
-{% assign path_array = page.path | split: "/" %}   
+{% assign path_array = page.path | split: "/" %}
+{% assign getting_started_plugins = site.plugins | where: "category", "getting-started" %}
+{% assign sorted_plugins = getting_started_plugins | sort_natural: "order" %}
+
+<div class="nav-item top-level ">
+    <h4 class="mb-md uppercase p-md opacity-50">Getting Started</h4>
+    
+    {% for plugin in sorted_plugins %}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>   
+
+
+<!-- {% assign path_array = page.path | split: "/" %}   
 {% assign sorted_plugins = site.plugins %}
 
 <div class="nav-item top-level ">
@@ -13,7 +30,7 @@
         {% endif %}
         {% endif %}
     {% endfor %}
-</div>   
+</div>    -->
 
 <div class="nav-item top-level">
     <h4 class="mb-md uppercase p-md opacity-50">Basics</h4>
