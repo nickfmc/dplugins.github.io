@@ -1,4 +1,5 @@
 {% assign path_array = page.path | split: "/" %}
+
 {% assign getting_started_plugins = site.plugins | where: "category", "getting-started" %}
 {% assign sorted_plugins = getting_started_plugins | sort_natural: "order" %}
 
