@@ -1712,6 +1712,12 @@ pre.highlight > button:focus {
   opacity: 1;
 }
 
+iframe.oembed {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));

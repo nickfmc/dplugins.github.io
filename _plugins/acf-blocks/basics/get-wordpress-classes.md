@@ -2,7 +2,8 @@
 title: Get WordPress Classes
 ---
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-21.41.38-800x408.png)
+![](../../img/get-wp-class-1.png)
+
 Gutenberg has several helper classes that you can add dynamically to your blocks.
 
 ## Align
@@ -13,4 +14,4 @@ Gutenberg has several helper classes that you can add dynamically to your blocks
 
 `<strong><?php</strong> echo $block['className']; <strong>?></strong>`
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-21.45.29-800x119.png)
+![](../../img/get-wp-class-2.png)

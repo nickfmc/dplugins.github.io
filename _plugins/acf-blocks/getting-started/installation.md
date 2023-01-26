@@ -18,12 +18,12 @@ Since this is Scripts Organizer's add-on licence field will be located under:
 
 Paste licence and press Activate Licence button.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-17.42.35.png)
+![](../../img/installation-1.png)
 
 As validation you will get green badge active if licence is valid.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-17.43.46.png)
+![](../../img/installation-2.png)
 
 Once Licence is activate new submenu **"ACF Blocks"** will be displayed under Scripts Organizer
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-17.50.18.png)
+![](../../img/installation-3.png)

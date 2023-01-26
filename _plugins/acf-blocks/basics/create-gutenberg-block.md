@@ -12,14 +12,15 @@ order: 1
 7. **Description**
 8. **Code Block**
 
-![](/wp-content/uploads/2022/05/block-preview-1-800x540.png)
+![](../../img/create-block--ui.png)
 
 ## Block Title 
 will define block name be displayed when you try to add Gutenberg block. You can add Gutenberg block in several ways. Most common is to type slash "/" and then start typing block name or to press plus "+".
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.16.png)
+{: .col-2}
+![](../../img/create-block--block-title.png)
+![](../../img/create-block--block-title-2.png)
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)
 
 ## Quick Toggle
 This switch can help you quickly disable blocks without need to delete them.
@@ -31,16 +32,18 @@ is visual representation when you try to add block same as title. For icons we a
 When you are adding icon name do not include <mark class="has-inline-color has-vivid-red-color" style="background-color:rgba(0, 0, 0, 0)">**"dashicons-"**</mark>. 
 In example bellow pasted name should be: **"**admin-comments**"**.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.42.00-800x636.png)
+{: .col-2}
+![](../../img/create-block--icon.png)
 
 ## Category
 Is the location where your code block will be placed. If try to add block and you press **Browse all** you will get a list of all blocks grouped in categories.
 
 In our example you can find it under **TEXT** category.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.24.34-800x1140.png)
+{: .col-2}
+![](../../img/create-block--category.png)
+![](../../img/create-block--category-2.png)
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.46.50.png)
 
 **Available categories are:**
 
@@ -51,7 +54,7 @@ In our example you can find it under **TEXT** category.
 - Theme
 - Embed
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-19.50.35.png)
+![](../../img/create-block--category-3.png)
 
 ## Keywords
 
@@ -72,7 +75,7 @@ This is a place where you call your CSS or JS files for your block. We decided n
 
 Example for that is if you have two user cards and one is vertical and another is horizontal. They look almost the same but orientation of elements and some of the elements are different. You can get a way with reusing css and add another class on main wrap of the block.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.10.30.png)
+![](../../img/create-block--scripts-styles.png)
 
 ### For explaining Styling in details please check our Styling instructions
 
@@ -81,7 +84,7 @@ Example for that is if you have two user cards and one is vertical and another i
 ## Descriptions
 will help you better document what this the function of this block you if you are working in teams this is perfect place to leave notes for your colleagues without rendering comments in websites HTML.
 
-![image](/wp-content/uploads/2022/05/image-800x245.png)
+![](../../img/create-block--descriptions.png)
 
 ## Code Block
 

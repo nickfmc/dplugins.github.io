@@ -108,3 +108,9 @@ pre.highlight > button:active,
 pre.highlight > button:focus {
 opacity: 1;
 }
+
+iframe.oembed {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}

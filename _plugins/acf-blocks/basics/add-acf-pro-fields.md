@@ -19,11 +19,11 @@ Bellow you can create needed fields
 Under location be sure to chose:  
 **"Block" - "is equal to" - "Block name"** in this case "Hello World".
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.35.41-800x255.png)
+![](../../img/add-acf-pro-fields-field-group.png)
 
 ## Add ACF php code to render the fields.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.47.03-800x378.png)
+![](../../img/add-acf-pro-fields-code.png)
 
 ## Edit ACF Values inside Gutenberg
 
@@ -31,9 +31,9 @@ There is two ways to edit it.
 
 ### In sidebar
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.49.10-800x244.png)
+![](../../img/add-acf-pro-fields-field.png)
 
 ### Switch to edit mode
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.49.23-800x224.png)
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-15-at-20.49.30-800x239.png)
+![](../../img/add-acf-pro-fields-edit.png)
+![](../../img/add-acf-pro-fields-preview.png)
