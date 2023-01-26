@@ -7,8 +7,8 @@ title: Advanced Settings
 Those options are disabled by default as they may overwhelm beginners. Scroll to the bottom of the settings and enable it by switching the toggle.
 
 {: .col-2}
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.46.48-800x1217.png){: .half-img}
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.37.07-800x1796.png){: .half-img}
+![](../../img/advanced-scrog-1.png){: .half-img}
+![](../../img/advanced-scrog-2.png){: .half-img}
 
 ## JSX (for inner blocks)
 To enable adding blocks inside your block you need to:
@@ -28,8 +28,7 @@ If this one is disabled you can add block only once per post or page.
 ## Visible in \[+\] Add Block panel
 If this option is disable user will not be able to add block by using those tree options. Block will then needs to be added programmatically.
 
-
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-21.59.35-800x355.png)
+![](../../img/advanced-add-new.png)
 
 Read more about "Inserter" on [WordPress Reference Guide.](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/)
 
@@ -40,15 +39,14 @@ Read more about "Inserter" on [WordPress Reference Guide.](https://developer.wor
 This will allow you to add horizontal align classes from the toolbar. You can choose witch options you want to add to the toolbar.
 
 {: .col-2}
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.07.24.png)
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.08.58.png)
+![](../../img/advanced-options.png)
+![](../../img/advanced-max-w.png)
 
 {: .col-2}
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.15.png)
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-25-at-22.10.08.png)
+![](../../img/advanced-options-2.png)
+![](../../img/advanced-max-w-2.png)
 
-
-```
+```php
 // This needs review
 <?php
 
@@ -71,14 +69,12 @@ This will allow you to add horizontal align classes from the toolbar. You can ch
 ## Vertical Align
 Will allow you to set Align top, Align middle and Align bottom
 
-
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-10.29.33.png)
+![](../../img/advanced-align-vertical.png)
 
 ## Text Align
 Will allow you to set Align text left, Align text center, Align text right
 
-
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.35.44-800x383.png)
+![](../../img/advanced-align-horizontal.png)
 
 ### Horizontal, Vertical and Text Align Default
 You can predefine selected option in the toolbar and the front end, when you are adding block to the page.
@@ -86,37 +82,46 @@ You can predefine selected option in the toolbar and the front end, when you are
 ## Full Height
 This option is toggle state and not dropdown select. It will toggle full-height class.
 
-
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.33.44-800x109.png)
+![](../../img/advanced-full.png)
 
 ## Edit Mode inside block
 If this option is not enabled you will get ACF fields in sidebar. If this option is enabled you can edit ACF fields directly inside block area. If edit mode inside block is active you will not see ACF fields in the sidebar at the same time.
 
+--- 
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-12.15.01-800x370.png)
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-12.15.14-800x194.png)
+![](../../img/advanced-edit.png)
+
+--- 
+
+![](../../img/advanced-edit-2.png)
+
+--- 
 
 ## Reusable
 Enables option to save it as Reusable block
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.38.21-800x640.png)
+![](../../img/advanced-reusable.png)
 
 ## Lock
 After enabling this options you can find it under toolbar &gt; advanced options (tree dots).
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-13.36.24-800x644.png)
+![](../../img/advanced-lock.png)
 
 Locking block will give you several options where you can apply lock state.
 
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-12.06.10-800x556.png)
+![](../../img/advanced-lock-2.png)
 
 ## Dimensions (Margin, Padding)
+
 Will unlock options in sidebar to add Margin and Padding
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-12.03.24-800x298.png)
+
+![](../../img/advanced-dimensions.png)
 
 ## HTML anchor
+
 Will replace automatic generated ID values to help you link easier to the current block
-![](/wp-content/uploads/2022/05/Screenshot-2022-05-26-at-12.00.01-800x338.png)
+
+![](../../img/advanced-html-anchor.png)
 
 ## Code Boilerplate
 
