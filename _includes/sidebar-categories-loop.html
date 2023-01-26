@@ -1,0 +1,88 @@
+{% assign path_array = page.path | split: "/" %}       
+
+<div class="nav-item top-level ">
+    <h4 class="mb-md uppercase p-md">Getting Started</h4>
+    
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "getting-started"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md">Basics</h4>
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "basics"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="nav-item top-level">
+    {% if site.guides %}
+    <h4 class="mb-md uppercase p-md">Guides</h4>
+    {% endif %}
+    
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "guides"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md">Advanced</h4>
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "advanced"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md">Tutorials</h4>
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "tutorials"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md">Builders Integrations</h4>
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "integrations"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

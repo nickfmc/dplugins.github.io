@@ -47,7 +47,7 @@ body:has(.plugins-wrap){
 }
 
 .nav-item.top-level{
-    display: none;
+    @apply border-b border-b border-b-slate-200 hidden pb-xxl mb-xxl ;
 }
 
 .nav-item.top-level .current a{

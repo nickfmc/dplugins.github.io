@@ -1,0 +1,15 @@
+{% assign path_array = page.path | split: "/" %}   
+
+<div class="sidebar-group">
+    <h4 class="mb-md uppercase p-md">{{ include.title }}</h4>
+    
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "{{ include.cat }}"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

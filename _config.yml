@@ -20,37 +20,37 @@ defaults:
       path: "_plugins/*/getting-started"
       type: "plugins"
     values:
-      category: "Getting Started"
+      category: "getting-started"
   - 
     scope:
       path: "_plugins/*/basics"
       type: "plugins"
     values:
-      category: "Basics"
+      category: "basics"
   - 
     scope:
       path: "_plugins/*/guides"
       type: "plugins"
     values:
-      category: "Guides"
+      category: "guides"
   - 
     scope:
       path: "_plugins/*/advanced"
       type: "plugins"
     values:
-      category: "Advanced"
+      category: "advanced"
   - 
     scope:
       path: "_plugins/*/tutorials"
       type: "plugins"
     values:
-      category: "Tutorials"
+      category: "tutorials"
   - 
     scope:
       path: "_plugins/*/integrations"
       type: "plugins"
     values:
-      category: "Integrations"
+      category: "integrations"
 
 category_order:
   - getting-started
