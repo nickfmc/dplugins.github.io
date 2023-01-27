@@ -1,19 +1,5 @@
 ---
-id: 9080
 title: 'Oxygen Builder Keyboard Shortcuts'
-date: '2021-04-10T06:57:44+00:00'
-author: devusrmk
-layout: swiss-knife
-guid: 'http://dplugins.local/?post_type=docs&#038;p=9080'
-permalink: /swiss-knife/oxygen-builder-keyboard-shortcuts/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-algolia_posts_swiss-knife_records_count:
-    - '1'
-hide_title:
-    - '0'
 ---
 
 With Swiss Knife Pro, Oxygen builder has premade 40 Keyboard shortcuts that can be customized to fit your preferences. Start getting an app feeling by using app native shortcuts such as Save CTRL (⌘) + S, Undo CTRL (⌘) + Z, Add Elements CTRL (⌘) + A, Toggle panels, or even Lock and Unlock classes.

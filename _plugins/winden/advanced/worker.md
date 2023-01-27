@@ -1,5 +1,4 @@
 ---
-description: Self-host the Worker
 title: Worker
 ---
 

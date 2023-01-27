@@ -1005,18 +1005,6 @@ video {
   margin-bottom: 0;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .visible {
   visibility: visible;
 }
@@ -1078,6 +1066,16 @@ video {
   margin-bottom: var(--space-size-xl);
 }
 
+.-mx-lg {
+  margin-left: calc(var(--space-size-lg) * -1);
+  margin-right: calc(var(--space-size-lg) * -1);
+}
+
+.my-xxl {
+  margin-top: var(--space-size-xxl);
+  margin-bottom: var(--space-size-xxl);
+}
+
 .mt-\[0\.5em\] {
   margin-top: 0.5em;
 }
@@ -1100,6 +1098,14 @@ video {
 
 .mt-xxl {
   margin-top: var(--space-size-xxl);
+}
+
+.mb-lg {
+  margin-bottom: var(--space-size-lg);
+}
+
+.mb-xxl {
+  margin-bottom: var(--space-size-xxl);
 }
 
 .block {
@@ -1134,6 +1140,10 @@ video {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-\[400\%\] {
   height: 400%;
 }
@@ -1144,6 +1154,14 @@ video {
 
 .h-\[24px\] {
   height: 24px;
+}
+
+.h-xxl {
+  height: var(--space-size-xxl);
+}
+
+.\!h-xxl {
+  height: var(--space-size-xxl) !important;
 }
 
 .w-\[260px\] {
@@ -1160,6 +1178,18 @@ video {
 
 .w-\[24px\] {
   width: 24px;
+}
+
+.w-xxl {
+  width: var(--space-size-xxl);
+}
+
+.\!w-xxl {
+  width: var(--space-size-xxl) !important;
+}
+
+.\!w-giga {
+  width: var(--space-size-giga) !important;
 }
 
 .min-w-full {
@@ -1212,6 +1242,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -1244,12 +1278,12 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded {
@@ -1262,6 +1296,14 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-\[5px\] {
+  border-width: 5px;
+}
+
+.border-\[10px\] {
+  border-width: 10px;
 }
 
 .border-b {
@@ -1285,6 +1327,11 @@ video {
 .border-slate-100 {
   --tw-border-opacity: 1;
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#151515\] {
@@ -1469,10 +1516,6 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-.opacity-40 {
-  opacity: 0.4;
 }
 
 .mix-blend-multiply {

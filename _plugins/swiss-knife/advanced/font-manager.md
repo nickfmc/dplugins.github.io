@@ -1,26 +1,5 @@
 ---
-id: 1474
 title: 'Font Manager with Font preload'
-date: '2021-01-03T18:31:24+00:00'
-author: devusrmk
-excerpt: 'Custom fonts are now available inside Oxygen Builder. Our solution is perfectly integrated inside Oxygen and all registered custom fonts will be visible in the dropdown list with the rest of the fonts. With our solution, you will be provided with an admin panel to upload and organize custom fonts.'
-layout: swiss-knife
-guid: 'http://dplugins.local/?post_type=docs&#038;p=1474'
-permalink: /swiss-knife/font-manager/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '4'
-soon:
-    - ''
-rank_math_analytic_object_id:
-    - '8'
-rank_math_internal_links_processed:
-    - '1'
-algolia_posts_swiss-knife_records_count:
-    - '4'
-hide_title:
-    - '0'
 ---
 
 <figure class="wp-block-image">![](blob:https://docs.dplugins.com/0f37ac05-397a-43a6-8490-0fc6989d834e)</figure>Custom fonts are now available inside Oxygen Builder. Our solution is perfectly integrated inside Oxygen and all registered custom fonts will be visible in the dropdown list with the rest of the fonts. With our solution, you will be provided with an admin panel to upload and organize custom fonts.

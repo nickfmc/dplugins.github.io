@@ -1,12 +1,12 @@
 {% assign path_array = page.path | split: "/" %}
 
 {% assign getting_started_plugins = site.plugins | where: "category", "getting-started" %}
-{% assign sorted_plugins_by_getting_started = getting_started_plugins | sort_natural: "order" %}
+{% assign sorted_plugins = getting_started_plugins | sort_natural: "order" %}
 
 <div class="nav-item top-level ">
     <h4 class="mb-md uppercase p-md opacity-50">Getting Started</h4>
     
-    {% for plugin in sorted_plugins_by_getting_started %}                    
+    {% for plugin in sorted_plugins %}                    
         {% if plugin.url contains path_array[1] %}
         <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
             <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
@@ -15,82 +15,93 @@
     {% endfor %}
 </div>   
 
-{% assign basics_plugins = site.plugins | where: "category", "basics" %}
-{% assign sorted_plugins_by_basics = basics_plugins | sort_natural: "order" %}
+
+<!-- {% assign path_array = page.path | split: "/" %}   
+{% assign sorted_plugins = site.plugins %}
 
 <div class="nav-item top-level ">
+    <h4 class="mb-md uppercase p-md opacity-50">Getting Started</h4>
+    
+    {% for plugin in sorted_plugins %}                    
+        {% if plugin.category == "getting-started"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>    -->
+
+<div class="nav-item top-level">
     <h4 class="mb-md uppercase p-md opacity-50">Basics</h4>
-    
-    {% for plugin in sorted_plugins_by_basics %}                    
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "basics"%}                    
         {% if plugin.url contains path_array[1] %}
         <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
             <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
         </div>
         {% endif %}
-    {% endfor %}
-</div>   
-
-{% assign advanced_plugins = site.plugins | where: "category", "advanced" %}
-{% assign sorted_plugins_by_advanced = advanced_plugins | sort_natural: "order" %}
-
-<div class="nav-item top-level ">
-    <h4 class="mb-md uppercase p-md opacity-50">advanced</h4>
-    
-    {% for plugin in sorted_plugins_by_advanced %}                    
-        {% if plugin.url contains path_array[1] %}
-        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
-            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
-        </div>
         {% endif %}
     {% endfor %}
-</div>   
+</div>
 
-
-
-{% assign guides_plugins = site.plugins | where: "category", "guides" %}
-{% assign sorted_plugins_by_guides = guides_plugins | sort_natural: "order" %}
-
-<div class="nav-item top-level ">
+<div class="nav-item top-level">
+    {% if site.guides %}
     <h4 class="mb-md uppercase p-md opacity-50">Guides</h4>
+    {% endif %}
     
-    {% for plugin in sorted_plugins_by_guides %}                    
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "guides"%}                    
         {% if plugin.url contains path_array[1] %}
         <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
             <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
         </div>
         {% endif %}
+        {% endif %}
     {% endfor %}
-</div>   
+</div>
 
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md opacity-50">Advanced</h4>
 
-{% assign tutorials_plugins = site.plugins | where: "category", "tutorials" %}
-{% assign sorted_plugins_by_tutorials = tutorials_plugins | sort_natural: "order" %}
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "advanced"%}                    
+        {% if plugin.url contains path_array[1] %}
+        <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
+            <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
+        </div>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>
 
-<div class="nav-item top-level ">
+<div class="nav-item top-level">
     <h4 class="mb-md uppercase p-md opacity-50">Tutorials</h4>
-    
-    {% for plugin in sorted_plugins_by_tutorials %}                    
+
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "tutorials"%}                    
         {% if plugin.url contains path_array[1] %}
         <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
             <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
         </div>
         {% endif %}
+        {% endif %}
     {% endfor %}
-</div>   
+</div>
 
+<div class="nav-item top-level">
+    <h4 class="mb-md uppercase p-md opacity-50">Builders Integrations</h4>
 
-{% assign integrations_plugins = site.plugins | where: "category", "integrations" %}
-{% assign sorted_plugins_by_integrations = integrations_plugins | sort_natural: "order" %}
-
-<div class="nav-item top-level ">
-    <h4 class="mb-md uppercase p-md opacity-50">Integrations</h4>
-    
-    {% for plugin in sorted_plugins_by_integrations %}                    
+    {% for plugin in site.plugins %}                    
+        {% if plugin.category == "integrations"%}                    
         {% if plugin.url contains path_array[1] %}
         <div class="nav-item {% if plugin.url == page.url %}current{% endif %}">
             <a class="p-md block rounded-md" href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a>
         </div>
         {% endif %}
+        {% endif %}
     {% endfor %}
-</div>   
-
+</div>

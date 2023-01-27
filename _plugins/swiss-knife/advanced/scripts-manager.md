@@ -1,24 +1,5 @@
 ---
-id: 3254
 title: 'Scripts Manager'
-date: '2021-02-01T21:14:35+00:00'
-author: devusrmk
-excerpt: 'No more need for extra plugins. Enqueue or Register Scripts and Styles. Crafted for Oxygen Builder with security in mind. Upload scripts and styles are enabled only when you want them.'
-layout: swiss-knife
-guid: 'http://dplugins.local/?post_type=docs&#038;p=3254'
-permalink: /swiss-knife/scripts-manager/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '2'
-soon:
-    - ''
-new_feature:
-    - a
-algolia_posts_swiss-knife_records_count:
-    - '2'
-hide_title:
-    - '0'
 ---
 
 Include Scripts and Styles in Oxygen websites with Swiss Knife. Crafted for Oxygen Builder with security in mind. Upload scripts and styles are enabled only when you need them.

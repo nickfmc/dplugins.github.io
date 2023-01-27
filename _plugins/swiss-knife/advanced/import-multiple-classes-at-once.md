@@ -1,24 +1,5 @@
 ---
-id: 3259
 title: 'Import &#038; Lock Multiple Classes at once'
-date: '2021-02-01T21:22:15+00:00'
-author: devusrmk
-excerpt: 'Finally you can use favourite frameworks with classes autocomplete. If frameworks are bloated for you, set up your Agency naming convention and use it in every project. '
-layout: swiss-knife
-guid: 'http://dplugins.local/?post_type=docs&#038;p=3259'
-permalink: /swiss-knife/import-multiple-classes-at-once/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '1'
-soon:
-    - ''
-new_feature:
-    - a
-algolia_posts_swiss-knife_records_count:
-    - '1'
-hide_title:
-    - '0'
 ---
 
 Finally, you can use your favorite frameworks with classes autocomplete. If frameworks are bloated for you, set up your Agency naming convention and use it in every project.

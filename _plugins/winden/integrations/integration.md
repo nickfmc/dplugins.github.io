@@ -1,5 +1,4 @@
 ---
-description: Integrate Winden to your plugins/themes easily
 title: Integration
 ---
 

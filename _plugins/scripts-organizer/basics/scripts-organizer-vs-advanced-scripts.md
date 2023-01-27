@@ -1,21 +1,5 @@
 ---
-id: 11824
 title: 'Scripts Organizer vs Advanced Scripts'
-date: '2021-04-26T22:56:21+00:00'
-author: devusrmk
-layout: scripts-organizer
-guid: 'http://dplugins.local/?post_type=docs&#038;p=11824'
-permalink: /scripts-organizer/scripts-organizer-vs-advanced-scripts/
-inline_featured_image:
-    - '0'
-algolia_searchable_posts_records_count:
-    - '2'
-algolia_posts_scripts-organizer_records_count:
-    - '2'
-hide_title:
-    - '0'
-updated:
-    - '0'
 ---
 
 <figure class="wp-block-image size-full">![](https://docs.dplugins.com/wp-content/uploads/2021/10/Scripts-Organizer-vs-AS.png)</figure>Many users might wonder what suits their workflow better and want to know the main differences between Script Organizer and Advanced Scripts. Therefore, we made a comparison page to help you answer these questions:

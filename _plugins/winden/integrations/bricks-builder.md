@@ -1,5 +1,4 @@
 ---
-description: Bricks Builder integration
 title: Bricks Builder
 ---
 
