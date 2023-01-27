@@ -1,5 +1,5 @@
 ---
-title: Writhing guide
+title: Writing guide
 layout: page
 ---
 
