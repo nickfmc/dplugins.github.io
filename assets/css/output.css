@@ -1200,6 +1200,10 @@ video {
   max-width: 800px;
 }
 
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
