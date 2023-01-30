@@ -68,15 +68,15 @@
   <body class="{{ page.body_class }}">
 
   <header class="py-lg px-xl border-b border-slate-200">
-      <div class="flex justify-between items-center">
-        <div class="w-[260px]">
+      <div class="flex justify-between items-center gap-xl relative">
+        <div class="min-w-[260px]">
           <a class="flex gap-md" href="{{ site.url }}">
             <img class="w-[150px]" src="https://dplugins.com/wp-content/uploads/2021/06/dPlugins-logo.svg" alt="">
             <div class=" font-bold mt-[0.5em]">Docs.</div>
           </a>
         </div>
 
-        <div id="search-container" class="search-searchbar-wrap w-full relative max-w-[600px]">
+        <div id="search-container" class="search-searchbar-wrap hidden lg:block w-full relative max-w-full md:max-w-[400px] xl:max-w-[600px]">
           <div id="search-searchbar" class=" w-full"></div>
 
           <div class="post-list" id="search-hits">
@@ -99,12 +99,25 @@
         </div>
 
 
-        <nav class="flex gap-xl">
+        <nav class="hidden xl:flex gap-xl navigation">
           <a href="{{ site.url }}">Plugins Docs</a>
           <a href="{{ site.url }}/writing-guide.html">Writing guide</a>
           <a href="{{ site.url }}/how-to-contribute.html">How to contribute</a>
           <a target="_blank" href="https://dplugins.com/">Shop</a>
         </nav>
+
+        <nav class="hidden gap-xl navigationMobile flex-col bg-white shadow absolute top-full left-0 w-full px-lg py-xxl z-50">
+          <a class="border-b border-b border-b-slate-200" href="{{ site.url }}">Plugins Docs</a>
+          <a class="border-b border-b border-b-slate-200" href="{{ site.url }}/writing-guide.html">Writing guide</a>
+          <a class="border-b border-b border-b-slate-200" href="{{ site.url }}/how-to-contribute.html">How to contribute</a>
+          <a class="border-b border-b border-b-slate-200" target="_blank" href="https://dplugins.com/">Shop</a>
+        </nav>
+
+        <div id="mobileMenuTrigger" class="xl:hidden cursor-pointer">
+          <svg width="32px" height="32p" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="m23 31v6h54v-6zm0 16v6h54v-6zm0 16v6h54v-6z"/>
+          </svg>        
+        </div>
 
       </div>
   </header>

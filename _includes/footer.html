@@ -18,7 +18,6 @@
     </footer>
 
     <script>
-        // assets/js/post.js
         var codeBlocks = document.querySelectorAll('pre.highlight');
 
         codeBlocks.forEach(function (codeBlock) {
@@ -42,6 +41,14 @@
                 }, fourSeconds);
             });
         });
+
+
+        document.querySelector("#mobileMenuTrigger").addEventListener("click", function() {
+            const toggleObject = document.querySelector(".navigationMobile");
+            toggleObject.style.display = (toggleObject.style.display === "none") ? "flex" : "none";
+        });
+        
+
     </script>
 </body>
 </html>
