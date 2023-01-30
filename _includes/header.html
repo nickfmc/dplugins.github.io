@@ -6,9 +6,7 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:site_name">
     
-
-
-    {% if page.title %}
+    <!-- {% if page.title %}
       <meta content="{{ page.title }}" property="og:title">
     {% else %}
       <meta content="{{ site.title }}" property="og:title">
@@ -44,7 +42,7 @@
       {% for tag in page.tags %}
       <meta content="{{ tag }}" property="article:tag">
       {% endfor %}
-    {% endif %}
+    {% endif %} -->
     
     <meta name="twitter:image" content="{{ "/assets/img/og-share-image.png" | relative_url }}" />
     
