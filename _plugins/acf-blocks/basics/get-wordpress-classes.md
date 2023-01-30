@@ -8,10 +8,14 @@ Gutenberg has several helper classes that you can add dynamically to your blocks
 
 ## Align
 
-`<strong><?php</strong> echo $block['align'] <strong>?></strong>`
+```php
+ <?php echo $block['align'] ;?>
+```
 
 ## Additional CSS Classes
 
-`<strong><?php</strong> echo $block['className']; <strong>?></strong>`
+```php
+<?php echo $block['className'] ;?>
+```
 
 ![](../../img/get-wp-class-2.png)
